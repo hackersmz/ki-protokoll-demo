@@ -1,0 +1,158 @@
+[
+ {
+  "i": 0,
+  "sprecher": "KH",
+  "start": 0.0,
+  "ende": 11.52
+ },
+ {
+  "i": 1,
+  "sprecher": "TW",
+  "start": 12.12,
+  "ende": 25.92
+ },
+ {
+  "i": 2,
+  "sprecher": "KH",
+  "start": 26.44,
+  "ende": 28.24
+ },
+ {
+  "i": 3,
+  "sprecher": "TW",
+  "start": 28.98,
+  "ende": 40.39
+ },
+ {
+  "i": 4,
+  "sprecher": "LB",
+  "start": 40.87,
+  "ende": 51.52
+ },
+ {
+  "i": 5,
+  "sprecher": "KH",
+  "start": 52.21,
+  "ende": 57.87
+ },
+ {
+  "i": 6,
+  "sprecher": "LB",
+  "start": 58.48,
+  "ende": 66.15
+ },
+ {
+  "i": 7,
+  "sprecher": "JS",
+  "start": 66.63,
+  "ende": 72.94
+ },
+ {
+  "i": 8,
+  "sprecher": "KH",
+  "start": 73.62,
+  "ende": 82.73
+ },
+ {
+  "i": 9,
+  "sprecher": "TW",
+  "start": 83.2,
+  "ende": 87.05
+ },
+ {
+  "i": 10,
+  "sprecher": "JS",
+  "start": 87.7,
+  "ende": 101.04
+ },
+ {
+  "i": 11,
+  "sprecher": "TW",
+  "start": 101.52,
+  "ende": 109.28
+ },
+ {
+  "i": 12,
+  "sprecher": "KH",
+  "start": 109.77,
+  "ende": 116.17
+ },
+ {
+  "i": 13,
+  "sprecher": "JS",
+  "start": 116.81,
+  "ende": 126.29
+ },
+ {
+  "i": 14,
+  "sprecher": "KH",
+  "start": 127.11,
+  "ende": 128.78
+ },
+ {
+  "i": 15,
+  "sprecher": "JS",
+  "start": 129.29,
+  "ende": 135.64
+ },
+ {
+  "i": 16,
+  "sprecher": "TW",
+  "start": 136.19,
+  "ende": 144.99
+ },
+ {
+  "i": 17,
+  "sprecher": "KH",
+  "start": 145.72,
+  "ende": 155.77
+ },
+ {
+  "i": 18,
+  "sprecher": "JS",
+  "start": 156.65,
+  "ende": 159.72
+ },
+ {
+  "i": 19,
+  "sprecher": "KH",
+  "start": 160.43,
+  "ende": 170.28
+ },
+ {
+  "i": 20,
+  "sprecher": "LB",
+  "start": 170.91,
+  "ende": 177.96
+ },
+ {
+  "i": 21,
+  "sprecher": "KH",
+  "start": 178.85,
+  "ende": 194.03
+ },
+ {
+  "i": 22,
+  "sprecher": "TW",
+  "start": 194.5,
+  "ende": 197.68
+ },
+ {
+  "i": 23,
+  "sprecher": "KH",
+  "start": 198.52,
+  "ende": 206.16
+ },
+ {
+  "i": 24,
+  "sprecher": "TW",
+  "start": 206.74,
+  "ende": 211.14
+ },
+ {
+  "i": 25,
+  "sprecher": "KH",
+  "start": 211.65,
+  "ende": 217.0
+ }
+]

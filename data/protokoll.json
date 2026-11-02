@@ -1,0 +1,45 @@
+{
+  "kopf": {
+    "titel": "Wöchentliche Projektbesprechung",
+    "firma": "Hartmann Gebäudetechnik GmbH",
+    "datum": "Montag, 2. November 2026",
+    "dauer": "3:37 min",
+    "teilnehmer": ["Katrin Hartmann (Geschäftsführerin)", "Thomas Weber (Projektleiter)", "Jana Schulz (Einkauf)", "Lukas Brandt (Bauleiter)"],
+    "status": "Entwurf – vor Versand von einem Teilnehmer zu prüfen"
+  },
+  "themen": [
+    {"titel": "Grundschule am Lindenweg", "text": "Heizungsverteilung im Altbau fertig. Die Wärmepumpe kommt zwei Wochen später, in KW 48. Die Hydraulik wird vorher vorbereitet, danach dauern Anschluss und Inbetriebnahme zwei Tage. Die Abnahme wurde auf den 24. November verschoben.", "beleg": [1, 4, 10]},
+    {"titel": "Angebot Wohnanlage Pankow", "text": "Angebot über 48.500 € netto für die Sanierung der Heizzentrale. Der Kunde fragt nach Rabatt; Spielraum laut Einkauf höchstens 3 %. Statt Rabatt wird ein Jahr kostenlose Wartung angeboten.", "beleg": [13, 15, 17]},
+    {"titel": "Urlaub Dezember", "text": "Zwischen Weihnachten und Neujahr braucht es einen Notdienst. Lukas Brandt übernimmt ihn und bekommt dafür im Januar eine Woche frei.", "beleg": [19, 20, 21]}
+  ],
+  "beschluesse": [
+    {"text": "Die Hydraulik an der Grundschule wird vor Lieferung der Wärmepumpe vorbereitet.", "beleg": [4, 5]},
+    {"text": "Kein Preisnachlass für die Wohnanlage Pankow; stattdessen ein Jahr Wartung kostenlos.", "beleg": [16, 17]},
+    {"text": "Lukas Brandt übernimmt den Notdienst vom 28. bis 31. Dezember und erhält dafür im Januar eine Woche frei.", "beleg": [20, 21]}
+  ],
+  "aufgaben": [
+    {"wer": "Jana Schulz", "was": "Pufferspeicher-Anschlüsse DN 50 beim Großhändler bestellen", "bis": "Mo 02.11.", "beleg": [6, 7]},
+    {"wer": "Thomas Weber", "was": "Team im Teamkanal an die Urlaubseintragung erinnern", "bis": "Mo 02.11.", "beleg": [21, 22]},
+    {"wer": "Thomas Weber", "was": "Schulamt schriftlich über den Lieferverzug informieren und den Abnahmetermin 24.11. bestätigen", "bis": "Mi 04.11.", "beleg": [8, 9, 11]},
+    {"wer": "Lukas Brandt", "was": "Hydraulik an der Grundschule vorbereiten", "bis": "Fr 06.11.", "beleg": [5, 6]},
+    {"wer": "Jana Schulz", "was": "Überarbeitetes Angebot Pankow versenden (ohne Rabatt, mit einem Jahr kostenloser Wartung)", "bis": "Fr 06.11.", "beleg": [17, 18]},
+    {"wer": "Thomas Weber", "was": "Klären, ob für die Schule eine zusätzliche Prüfung durch den Schornsteinfeger nötig ist", "bis": "Mo 09.11.", "beleg": [23, 24, 25]},
+    {"wer": "Alle", "was": "Urlaubswünsche für Dezember im Urlaubsplaner eintragen", "bis": "So 15.11.", "beleg": [21]}
+  ],
+  "korrekturen": [
+    {"text": "Abnahmetermin: Zuerst wurde Donnerstag, 19.11. genannt, später korrigiert auf Dienstag, 24.11. Im Protokoll gilt der 24.11.", "beleg": [3, 10]}
+  ],
+  "hinweise": [
+    {"text": "Die Wärmepumpe kommt in KW 48 (23.–27.11.), danach sind zwei Tage für Anschluss und Inbetriebnahme nötig. Die Abnahme am 24.11. liegt in derselben Woche – sie ist nur zu halten, wenn am Montag, 23.11. geliefert wird. Genauen Liefertag beim Hersteller erfragen.", "beleg": [1, 4, 10, 11]}
+  ],
+  "offen": [
+    {"text": "Ist für die Schule eine zusätzliche Prüfung durch den Schornsteinfeger nötig, oder reicht die Abnahme?", "beleg": [23, 24]}
+  ],
+  "begriffe": [
+    {"transkript": "Eizungsverteilung", "gelesen": "Heizungsverteilung", "beleg": 1},
+    {"transkript": "Kallen der Woche 48", "gelesen": "Kalenderwoche 48", "beleg": 1},
+    {"transkript": "DM50", "gelesen": "DN 50 (Nennweite)", "beleg": 6},
+    {"transkript": "Grußhändler", "gelesen": "Großhändler", "beleg": 7},
+    {"transkript": "Montere", "gelesen": "Monteure", "beleg": 19}
+  ]
+}

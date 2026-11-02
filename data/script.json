@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "firma": "Hartmann Gebäudetechnik GmbH (fiktiv)",
+    "titel": "Wöchentliche Projektbesprechung",
+    "datum": "2026-11-02",
+    "hinweis": "Fiktives Unternehmen, fiktive Personen. Gesprochen mit synthetischen macOS-Stimmen."
+  },
+  "sprecher": {
+    "KH": {"name": "Katrin Hartmann", "rolle": "Geschäftsführerin", "stimme": "Anna"},
+    "TW": {"name": "Thomas Weber", "rolle": "Projektleiter", "stimme": "Reed"},
+    "JS": {"name": "Jana Schulz", "rolle": "Einkauf", "stimme": "Sandy"},
+    "LB": {"name": "Lukas Brandt", "rolle": "Bauleiter", "stimme": "Flo"}
+  },
+  "zeilen": [
+    ["KH", "Guten Morgen zusammen. Wir haben heute drei Themen: die Grundschule am Lindenweg, das Angebot für die Wohnanlage in Pankow und die Urlaubsplanung im Dezember. Thomas, fängst du an?"],
+    ["TW", "Gern. Bei der Grundschule sind wir mit der Heizungsverteilung im Altbau fertig. Offen ist noch die Wärmepumpe. Der Hersteller hat die Lieferung um zwei Wochen verschoben, auf die Kalenderwoche achtundvierzig."],
+    ["KH", "Was bedeutet das für die Abnahme?"],
+    ["TW", "Die Abnahme mit dem Schulamt ist im Moment für Donnerstag, den 19. November geplant. Das wird knapp, aber ohne Wärmepumpe können wir die Anlage nicht in Betrieb nehmen."],
+    ["LB", "Von der Baustelle aus kann ich sagen: Wir könnten die Hydraulik schon vorbereiten, dann brauchen wir nach der Lieferung nur noch zwei Tage für Anschluss und Inbetriebnahme."],
+    ["KH", "Gut. Dann machen wir das so. Lukas, du bereitest die Hydraulik bis Ende dieser Woche vor."],
+    ["LB", "Mache ich. Ich brauche dafür aber noch die Pufferspeicher-Anschlüsse in DN fünfzig. Die sind nicht auf Lager."],
+    ["JS", "Die kann ich heute noch beim Großhändler bestellen. Lieferzeit ist normalerweise drei Werktage."],
+    ["KH", "Danke, Jana. Thomas, informierst du bitte das Schulamt über die Lieferverzögerung? Am besten schriftlich, damit wir das dokumentiert haben."],
+    ["TW", "Ja, ich schicke bis Mittwoch eine E-Mail an das Schulamt."],
+    ["JS", "Kleine Korrektur noch zur Abnahme: Das Schulamt hat mir gestern geschrieben, die Abnahme wurde auf Dienstag, den 24. November verschoben. Der 19. ist also nicht mehr aktuell."],
+    ["TW", "Ah, das ist gut, dann haben wir mehr Puffer. Dann nehme ich das in die E-Mail mit auf und bestätige den neuen Termin."],
+    ["KH", "Sehr gut. Zweites Thema: das Angebot für die Wohnanlage in Pankow. Jana, wie ist der Stand?"],
+    ["JS", "Das Angebot liegt bei 48.500 Euro netto für die Sanierung der Heizzentrale. Der Kunde hat nach einem Rabatt gefragt."],
+    ["KH", "Wie viel Spielraum haben wir?"],
+    ["JS", "Bei den aktuellen Materialpreisen maximal drei Prozent, sonst wird es für uns zu eng."],
+    ["TW", "Ich würde eher keinen Rabatt geben, sondern die Wartung im ersten Jahr kostenlos anbieten. Das kostet uns weniger und bindet den Kunden."],
+    ["KH", "Das gefällt mir. Wir bieten keinen Preisnachlass an, sondern ein Jahr Wartung kostenlos. Jana, schickst du das überarbeitete Angebot bis Freitag raus?"],
+    ["JS", "Ja, bis Freitag, den 6. November."],
+    ["KH", "Letztes Thema, Urlaub im Dezember. Ich möchte nicht, dass zwischen Weihnachten und Neujahr alle Monteure gleichzeitig weg sind. Wir brauchen einen Notdienst."],
+    ["LB", "Ich kann den Notdienst in der Woche zwischen den Jahren übernehmen, wenn ich dafür im Januar eine Woche frei bekomme."],
+    ["KH", "Einverstanden. Lukas macht den Notdienst vom 28. bis 31. Dezember. Wer sonst noch Urlaub einreichen will, bitte bis zum 15. November im Urlaubsplaner eintragen. Thomas, erinnerst du das Team daran?"],
+    ["TW", "Ja, ich schreibe es heute in den Teamkanal."],
+    ["KH", "Eine Frage ist noch offen: Brauchen wir für die Schule eine zusätzliche Prüfung durch den Schornsteinfeger, oder reicht die Abnahme?"],
+    ["TW", "Das weiß ich ehrlich gesagt nicht genau. Das muss ich klären."],
+    ["KH", "Dann klären wir das bis zur nächsten Besprechung. Danke euch, dann bis nächsten Montag."]
+  ]
+}

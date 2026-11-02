@@ -1,0 +1,3092 @@
+[
+ {
+  "i": 0,
+  "sprecher": "KH",
+  "start": 0.0,
+  "ende": 11.52,
+  "text": "Guten Morgen zusammen. Wir haben heute drei Themen, die Grundschule am Lindenweg, das Angebot für die Wohnanlage in Pankow und die Urlaubsplanung im Dezember. Thomas, fängst du an?",
+  "woerter": [
+   {
+    "w": "Guten",
+    "start": 0.0,
+    "ende": 0.28,
+    "p": 0.989
+   },
+   {
+    "w": "Morgen",
+    "start": 0.28,
+    "ende": 0.66,
+    "p": 1.0
+   },
+   {
+    "w": "zusammen.",
+    "start": 0.66,
+    "ende": 1.08,
+    "p": 0.993
+   },
+   {
+    "w": "Wir",
+    "start": 1.44,
+    "ende": 1.68,
+    "p": 1.0
+   },
+   {
+    "w": "haben",
+    "start": 1.68,
+    "ende": 1.98,
+    "p": 1.0
+   },
+   {
+    "w": "heute",
+    "start": 1.98,
+    "ende": 2.32,
+    "p": 1.0
+   },
+   {
+    "w": "drei",
+    "start": 2.32,
+    "ende": 2.56,
+    "p": 0.998
+   },
+   {
+    "w": "Themen,",
+    "start": 2.56,
+    "ende": 2.92,
+    "p": 1.0
+   },
+   {
+    "w": "die",
+    "start": 3.16,
+    "ende": 3.42,
+    "p": 1.0
+   },
+   {
+    "w": "Grundschule",
+    "start": 3.42,
+    "ende": 4.0,
+    "p": 1.0
+   },
+   {
+    "w": "am",
+    "start": 4.0,
+    "ende": 4.2,
+    "p": 1.0
+   },
+   {
+    "w": "Lindenweg,",
+    "start": 4.2,
+    "ende": 4.86,
+    "p": 1.0
+   },
+   {
+    "w": "das",
+    "start": 5.08,
+    "ende": 5.38,
+    "p": 1.0
+   },
+   {
+    "w": "Angebot",
+    "start": 5.38,
+    "ende": 5.92,
+    "p": 1.0
+   },
+   {
+    "w": "für",
+    "start": 5.92,
+    "ende": 6.06,
+    "p": 1.0
+   },
+   {
+    "w": "die",
+    "start": 6.06,
+    "ende": 6.2,
+    "p": 1.0
+   },
+   {
+    "w": "Wohnanlage",
+    "start": 6.2,
+    "ende": 6.94,
+    "p": 1.0
+   },
+   {
+    "w": "in",
+    "start": 6.94,
+    "ende": 7.16,
+    "p": 1.0
+   },
+   {
+    "w": "Pankow",
+    "start": 7.16,
+    "ende": 7.58,
+    "p": 0.983
+   },
+   {
+    "w": "und",
+    "start": 7.58,
+    "ende": 7.78,
+    "p": 1.0
+   },
+   {
+    "w": "die",
+    "start": 7.78,
+    "ende": 7.92,
+    "p": 1.0
+   },
+   {
+    "w": "Urlaubsplanung",
+    "start": 7.92,
+    "ende": 8.9,
+    "p": 1.0
+   },
+   {
+    "w": "im",
+    "start": 8.9,
+    "ende": 9.08,
+    "p": 1.0
+   },
+   {
+    "w": "Dezember.",
+    "start": 9.08,
+    "ende": 9.68,
+    "p": 1.0
+   },
+   {
+    "w": "Thomas,",
+    "start": 9.94,
+    "ende": 10.32,
+    "p": 0.998
+   },
+   {
+    "w": "fängst",
+    "start": 10.62,
+    "ende": 11.1,
+    "p": 0.999
+   },
+   {
+    "w": "du",
+    "start": 11.1,
+    "ende": 11.2,
+    "p": 0.998
+   },
+   {
+    "w": "an?",
+    "start": 11.2,
+    "ende": 11.42,
+    "p": 1.0
+   }
+  ]
+ },
+ {
+  "i": 1,
+  "sprecher": "TW",
+  "start": 12.12,
+  "ende": 25.92,
+  "text": "Gern. Bei der Grundschule sind wir mit der Eizungsverteilung im Altbau fertig. Offen ist noch die Wärmepumpe. Der Hersteller hat die Lieferung um zwei Wochen verschoben, auf die Kallen der Woche 48.",
+  "woerter": [
+   {
+    "w": "Gern.",
+    "start": 12.12,
+    "ende": 12.48,
+    "p": 0.919
+   },
+   {
+    "w": "Bei",
+    "start": 12.7,
+    "ende": 13.1,
+    "p": 0.999
+   },
+   {
+    "w": "der",
+    "start": 13.1,
+    "ende": 13.3,
+    "p": 1.0
+   },
+   {
+    "w": "Grundschule",
+    "start": 13.3,
+    "ende": 13.92,
+    "p": 1.0
+   },
+   {
+    "w": "sind",
+    "start": 13.92,
+    "ende": 14.16,
+    "p": 1.0
+   },
+   {
+    "w": "wir",
+    "start": 14.16,
+    "ende": 14.38,
+    "p": 1.0
+   },
+   {
+    "w": "mit",
+    "start": 14.38,
+    "ende": 14.58,
+    "p": 1.0
+   },
+   {
+    "w": "der",
+    "start": 14.58,
+    "ende": 14.76,
+    "p": 1.0
+   },
+   {
+    "w": "Eizungsverteilung",
+    "start": 14.76,
+    "ende": 15.96,
+    "p": 0.981
+   },
+   {
+    "w": "im",
+    "start": 15.96,
+    "ende": 16.14,
+    "p": 1.0
+   },
+   {
+    "w": "Altbau",
+    "start": 16.14,
+    "ende": 16.56,
+    "p": 0.994
+   },
+   {
+    "w": "fertig.",
+    "start": 16.56,
+    "ende": 17.02,
+    "p": 1.0
+   },
+   {
+    "w": "Offen",
+    "start": 17.42,
+    "ende": 17.92,
+    "p": 0.999
+   },
+   {
+    "w": "ist",
+    "start": 17.92,
+    "ende": 18.08,
+    "p": 1.0
+   },
+   {
+    "w": "noch",
+    "start": 18.08,
+    "ende": 18.28,
+    "p": 1.0
+   },
+   {
+    "w": "die",
+    "start": 18.28,
+    "ende": 18.42,
+    "p": 1.0
+   },
+   {
+    "w": "Wärmepumpe.",
+    "start": 18.42,
+    "ende": 19.2,
+    "p": 0.978
+   },
+   {
+    "w": "Der",
+    "start": 19.44,
+    "ende": 19.84,
+    "p": 0.999
+   },
+   {
+    "w": "Hersteller",
+    "start": 19.84,
+    "ende": 20.4,
+    "p": 0.981
+   },
+   {
+    "w": "hat",
+    "start": 20.4,
+    "ende": 20.64,
+    "p": 1.0
+   },
+   {
+    "w": "die",
+    "start": 20.64,
+    "ende": 20.74,
+    "p": 1.0
+   },
+   {
+    "w": "Lieferung",
+    "start": 20.74,
+    "ende": 21.26,
+    "p": 0.994
+   },
+   {
+    "w": "um",
+    "start": 21.26,
+    "ende": 21.46,
+    "p": 0.934
+   },
+   {
+    "w": "zwei",
+    "start": 21.46,
+    "ende": 21.76,
+    "p": 0.837
+   },
+   {
+    "w": "Wochen",
+    "start": 21.76,
+    "ende": 22.12,
+    "p": 1.0
+   },
+   {
+    "w": "verschoben,",
+    "start": 22.12,
+    "ende": 22.84,
+    "p": 0.999
+   },
+   {
+    "w": "auf",
+    "start": 23.18,
+    "ende": 23.3,
+    "p": 0.999
+   },
+   {
+    "w": "die",
+    "start": 23.3,
+    "ende": 23.48,
+    "p": 0.994
+   },
+   {
+    "w": "Kallen",
+    "start": 23.48,
+    "ende": 23.84,
+    "p": 0.65
+   },
+   {
+    "w": "der",
+    "start": 23.84,
+    "ende": 24.04,
+    "p": 1.0
+   },
+   {
+    "w": "Woche",
+    "start": 24.04,
+    "ende": 24.3,
+    "p": 1.0
+   },
+   {
+    "w": "48.",
+    "start": 24.3,
+    "ende": 25.04,
+    "p": 0.996
+   }
+  ]
+ },
+ {
+  "i": 2,
+  "sprecher": "KH",
+  "start": 26.44,
+  "ende": 28.24,
+  "text": "Was bedeutet das für die Abnahme?",
+  "woerter": [
+   {
+    "w": "Was",
+    "start": 26.44,
+    "ende": 26.66,
+    "p": 0.997
+   },
+   {
+    "w": "bedeutet",
+    "start": 26.66,
+    "ende": 27.08,
+    "p": 1.0
+   },
+   {
+    "w": "das",
+    "start": 27.08,
+    "ende": 27.36,
+    "p": 1.0
+   },
+   {
+    "w": "für",
+    "start": 27.36,
+    "ende": 27.54,
+    "p": 1.0
+   },
+   {
+    "w": "die",
+    "start": 27.54,
+    "ende": 27.7,
+    "p": 1.0
+   },
+   {
+    "w": "Abnahme?",
+    "start": 27.7,
+    "ende": 28.1,
+    "p": 1.0
+   }
+  ]
+ },
+ {
+  "i": 3,
+  "sprecher": "TW",
+  "start": 28.98,
+  "ende": 40.39,
+  "text": "Die Abnahme mit dem Schulamt ist im Moment für Donnerstag, den 19. November geplant. Das wird knapp, aber ohne Wärmepumpe können wir die Anlage nicht in Betrieb nehmen.",
+  "woerter": [
+   {
+    "w": "Die",
+    "start": 28.98,
+    "ende": 29.12,
+    "p": 0.995
+   },
+   {
+    "w": "Abnahme",
+    "start": 29.12,
+    "ende": 29.64,
+    "p": 0.998
+   },
+   {
+    "w": "mit",
+    "start": 29.64,
+    "ende": 29.86,
+    "p": 1.0
+   },
+   {
+    "w": "dem",
+    "start": 29.86,
+    "ende": 30.04,
+    "p": 1.0
+   },
+   {
+    "w": "Schulamt",
+    "start": 30.04,
+    "ende": 30.64,
+    "p": 0.983
+   },
+   {
+    "w": "ist",
+    "start": 30.64,
+    "ende": 30.84,
+    "p": 1.0
+   },
+   {
+    "w": "im",
+    "start": 30.84,
+    "ende": 31.06,
+    "p": 1.0
+   },
+   {
+    "w": "Moment",
+    "start": 31.06,
+    "ende": 31.42,
+    "p": 1.0
+   },
+   {
+    "w": "für",
+    "start": 31.42,
+    "ende": 31.7,
+    "p": 0.998
+   },
+   {
+    "w": "Donnerstag,",
+    "start": 31.7,
+    "ende": 32.4,
+    "p": 0.99
+   },
+   {
+    "w": "den",
+    "start": 32.58,
+    "ende": 32.68,
+    "p": 1.0
+   },
+   {
+    "w": "19.",
+    "start": 32.68,
+    "ende": 33.1,
+    "p": 1.0
+   },
+   {
+    "w": "November",
+    "start": 33.42,
+    "ende": 33.74,
+    "p": 0.997
+   },
+   {
+    "w": "geplant.",
+    "start": 33.74,
+    "ende": 34.5,
+    "p": 0.929
+   },
+   {
+    "w": "Das",
+    "start": 34.9,
+    "ende": 35.26,
+    "p": 1.0
+   },
+   {
+    "w": "wird",
+    "start": 35.26,
+    "ende": 35.5,
+    "p": 0.99
+   },
+   {
+    "w": "knapp,",
+    "start": 35.5,
+    "ende": 35.82,
+    "p": 0.999
+   },
+   {
+    "w": "aber",
+    "start": 36.1,
+    "ende": 36.28,
+    "p": 1.0
+   },
+   {
+    "w": "ohne",
+    "start": 36.28,
+    "ende": 36.58,
+    "p": 1.0
+   },
+   {
+    "w": "Wärmepumpe",
+    "start": 36.58,
+    "ende": 37.28,
+    "p": 0.98
+   },
+   {
+    "w": "können",
+    "start": 37.28,
+    "ende": 37.56,
+    "p": 1.0
+   },
+   {
+    "w": "wir",
+    "start": 37.56,
+    "ende": 37.82,
+    "p": 1.0
+   },
+   {
+    "w": "die",
+    "start": 37.82,
+    "ende": 38.02,
+    "p": 1.0
+   },
+   {
+    "w": "Anlage",
+    "start": 38.02,
+    "ende": 38.52,
+    "p": 1.0
+   },
+   {
+    "w": "nicht",
+    "start": 38.52,
+    "ende": 38.76,
+    "p": 1.0
+   },
+   {
+    "w": "in",
+    "start": 38.76,
+    "ende": 38.96,
+    "p": 1.0
+   },
+   {
+    "w": "Betrieb",
+    "start": 38.96,
+    "ende": 39.42,
+    "p": 1.0
+   },
+   {
+    "w": "nehmen.",
+    "start": 39.42,
+    "ende": 39.8,
+    "p": 1.0
+   }
+  ]
+ },
+ {
+  "i": 4,
+  "sprecher": "LB",
+  "start": 40.87,
+  "ende": 51.52,
+  "text": "Von der Baustelle aus kann ich sagen, wir könnten die Hydraulik schon vorbereiten, dann brauchen wir nach der Lieferung nur noch zwei Tage für Anschluss und Inbetriebnahme.",
+  "woerter": [
+   {
+    "w": "Von",
+    "start": 40.87,
+    "ende": 41.03,
+    "p": 0.973
+   },
+   {
+    "w": "der",
+    "start": 41.03,
+    "ende": 41.23,
+    "p": 1.0
+   },
+   {
+    "w": "Baustelle",
+    "start": 41.23,
+    "ende": 41.79,
+    "p": 1.0
+   },
+   {
+    "w": "aus",
+    "start": 41.79,
+    "ende": 42.05,
+    "p": 1.0
+   },
+   {
+    "w": "kann",
+    "start": 42.05,
+    "ende": 42.25,
+    "p": 1.0
+   },
+   {
+    "w": "ich",
+    "start": 42.25,
+    "ende": 42.45,
+    "p": 1.0
+   },
+   {
+    "w": "sagen,",
+    "start": 42.45,
+    "ende": 42.89,
+    "p": 1.0
+   },
+   {
+    "w": "wir",
+    "start": 43.17,
+    "ende": 43.57,
+    "p": 0.998
+   },
+   {
+    "w": "könnten",
+    "start": 43.57,
+    "ende": 43.97,
+    "p": 0.999
+   },
+   {
+    "w": "die",
+    "start": 43.97,
+    "ende": 44.19,
+    "p": 1.0
+   },
+   {
+    "w": "Hydraulik",
+    "start": 44.19,
+    "ende": 44.87,
+    "p": 0.997
+   },
+   {
+    "w": "schon",
+    "start": 44.87,
+    "ende": 45.07,
+    "p": 0.998
+   },
+   {
+    "w": "vorbereiten,",
+    "start": 45.07,
+    "ende": 45.89,
+    "p": 1.0
+   },
+   {
+    "w": "dann",
+    "start": 46.09,
+    "ende": 46.29,
+    "p": 0.999
+   },
+   {
+    "w": "brauchen",
+    "start": 46.29,
+    "ende": 46.69,
+    "p": 1.0
+   },
+   {
+    "w": "wir",
+    "start": 46.69,
+    "ende": 47.01,
+    "p": 1.0
+   },
+   {
+    "w": "nach",
+    "start": 47.01,
+    "ende": 47.23,
+    "p": 1.0
+   },
+   {
+    "w": "der",
+    "start": 47.23,
+    "ende": 47.41,
+    "p": 1.0
+   },
+   {
+    "w": "Lieferung",
+    "start": 47.41,
+    "ende": 47.95,
+    "p": 1.0
+   },
+   {
+    "w": "nur",
+    "start": 47.95,
+    "ende": 48.15,
+    "p": 0.999
+   },
+   {
+    "w": "noch",
+    "start": 48.15,
+    "ende": 48.35,
+    "p": 1.0
+   },
+   {
+    "w": "zwei",
+    "start": 48.35,
+    "ende": 48.61,
+    "p": 0.757
+   },
+   {
+    "w": "Tage",
+    "start": 48.61,
+    "ende": 49.05,
+    "p": 1.0
+   },
+   {
+    "w": "für",
+    "start": 49.05,
+    "ende": 49.31,
+    "p": 1.0
+   },
+   {
+    "w": "Anschluss",
+    "start": 49.31,
+    "ende": 49.83,
+    "p": 1.0
+   },
+   {
+    "w": "und",
+    "start": 49.83,
+    "ende": 50.01,
+    "p": 0.893
+   },
+   {
+    "w": "Inbetriebnahme.",
+    "start": 50.01,
+    "ende": 50.97,
+    "p": 0.997
+   }
+  ]
+ },
+ {
+  "i": 5,
+  "sprecher": "KH",
+  "start": 52.21,
+  "ende": 57.87,
+  "text": "Gut, dann machen wir das so. Lukas, du bereitest die Hydraulik bis Ende dieser Woche vor.",
+  "woerter": [
+   {
+    "w": "Gut,",
+    "start": 52.21,
+    "ende": 52.47,
+    "p": 0.998
+   },
+   {
+    "w": "dann",
+    "start": 52.81,
+    "ende": 52.97,
+    "p": 1.0
+   },
+   {
+    "w": "machen",
+    "start": 52.97,
+    "ende": 53.23,
+    "p": 1.0
+   },
+   {
+    "w": "wir",
+    "start": 53.23,
+    "ende": 53.43,
+    "p": 1.0
+   },
+   {
+    "w": "das",
+    "start": 53.43,
+    "ende": 53.63,
+    "p": 1.0
+   },
+   {
+    "w": "so.",
+    "start": 53.63,
+    "ende": 53.89,
+    "p": 1.0
+   },
+   {
+    "w": "Lukas,",
+    "start": 54.11,
+    "ende": 54.63,
+    "p": 0.993
+   },
+   {
+    "w": "du",
+    "start": 54.87,
+    "ende": 55.05,
+    "p": 1.0
+   },
+   {
+    "w": "bereitest",
+    "start": 55.05,
+    "ende": 55.59,
+    "p": 0.999
+   },
+   {
+    "w": "die",
+    "start": 55.59,
+    "ende": 55.75,
+    "p": 1.0
+   },
+   {
+    "w": "Hydraulik",
+    "start": 55.75,
+    "ende": 56.33,
+    "p": 1.0
+   },
+   {
+    "w": "bis",
+    "start": 56.33,
+    "ende": 56.57,
+    "p": 1.0
+   },
+   {
+    "w": "Ende",
+    "start": 56.57,
+    "ende": 56.83,
+    "p": 1.0
+   },
+   {
+    "w": "dieser",
+    "start": 56.83,
+    "ende": 57.15,
+    "p": 1.0
+   },
+   {
+    "w": "Woche",
+    "start": 57.15,
+    "ende": 57.41,
+    "p": 1.0
+   },
+   {
+    "w": "vor.",
+    "start": 57.41,
+    "ende": 57.75,
+    "p": 1.0
+   }
+  ]
+ },
+ {
+  "i": 6,
+  "sprecher": "LB",
+  "start": 58.48,
+  "ende": 66.15,
+  "text": "Mache ich. Ich brauche dafür aber noch die Pufferspeicheranschlüsse in DM50. Die sind nicht auf Lager.",
+  "woerter": [
+   {
+    "w": "Mache",
+    "start": 58.48,
+    "ende": 58.78,
+    "p": 0.971
+   },
+   {
+    "w": "ich.",
+    "start": 58.78,
+    "ende": 59.06,
+    "p": 0.998
+   },
+   {
+    "w": "Ich",
+    "start": 59.26,
+    "ende": 59.68,
+    "p": 1.0
+   },
+   {
+    "w": "brauche",
+    "start": 59.68,
+    "ende": 60.1,
+    "p": 1.0
+   },
+   {
+    "w": "dafür",
+    "start": 60.1,
+    "ende": 60.46,
+    "p": 0.999
+   },
+   {
+    "w": "aber",
+    "start": 60.46,
+    "ende": 60.82,
+    "p": 0.999
+   },
+   {
+    "w": "noch",
+    "start": 60.82,
+    "ende": 61.0,
+    "p": 0.999
+   },
+   {
+    "w": "die",
+    "start": 61.0,
+    "ende": 61.16,
+    "p": 0.999
+   },
+   {
+    "w": "Pufferspeicheranschlüsse",
+    "start": 61.16,
+    "ende": 62.6,
+    "p": 0.954
+   },
+   {
+    "w": "in",
+    "start": 62.6,
+    "ende": 62.8,
+    "p": 0.961
+   },
+   {
+    "w": "DM50.",
+    "start": 62.8,
+    "ende": 63.72,
+    "p": 0.706
+   },
+   {
+    "w": "Die",
+    "start": 64.12,
+    "ende": 64.52,
+    "p": 0.997
+   },
+   {
+    "w": "sind",
+    "start": 64.52,
+    "ende": 64.7,
+    "p": 1.0
+   },
+   {
+    "w": "nicht",
+    "start": 64.7,
+    "ende": 65.0,
+    "p": 0.999
+   },
+   {
+    "w": "auf",
+    "start": 65.0,
+    "ende": 65.3,
+    "p": 0.996
+   },
+   {
+    "w": "Lager.",
+    "start": 65.3,
+    "ende": 65.66,
+    "p": 0.943
+   }
+  ]
+ },
+ {
+  "i": 7,
+  "sprecher": "JS",
+  "start": 66.63,
+  "ende": 72.94,
+  "text": "Die kann ich heute noch beim Grußhändler bestellen. Lieferzeit ist normalerweise drei Werktage.",
+  "woerter": [
+   {
+    "w": "Die",
+    "start": 66.63,
+    "ende": 66.75,
+    "p": 0.921
+   },
+   {
+    "w": "kann",
+    "start": 66.75,
+    "ende": 66.97,
+    "p": 0.999
+   },
+   {
+    "w": "ich",
+    "start": 66.97,
+    "ende": 67.15,
+    "p": 1.0
+   },
+   {
+    "w": "heute",
+    "start": 67.15,
+    "ende": 67.45,
+    "p": 0.999
+   },
+   {
+    "w": "noch",
+    "start": 67.45,
+    "ende": 67.65,
+    "p": 1.0
+   },
+   {
+    "w": "beim",
+    "start": 67.65,
+    "ende": 67.93,
+    "p": 0.999
+   },
+   {
+    "w": "Grußhändler",
+    "start": 67.93,
+    "ende": 68.67,
+    "p": 0.949
+   },
+   {
+    "w": "bestellen.",
+    "start": 68.67,
+    "ende": 69.17,
+    "p": 1.0
+   },
+   {
+    "w": "Lieferzeit",
+    "start": 69.73,
+    "ende": 70.33,
+    "p": 0.999
+   },
+   {
+    "w": "ist",
+    "start": 70.33,
+    "ende": 70.57,
+    "p": 1.0
+   },
+   {
+    "w": "normalerweise",
+    "start": 70.57,
+    "ende": 71.41,
+    "p": 0.999
+   },
+   {
+    "w": "drei",
+    "start": 71.41,
+    "ende": 71.71,
+    "p": 0.774
+   },
+   {
+    "w": "Werktage.",
+    "start": 71.71,
+    "ende": 72.43,
+    "p": 0.995
+   }
+  ]
+ },
+ {
+  "i": 8,
+  "sprecher": "KH",
+  "start": 73.62,
+  "ende": 82.73,
+  "text": "Danke, Jana. Thomas, informierst du bitte das Schulamt über die Lieferverzögerung, am besten schriftlich, damit wir das dokumentiert haben.",
+  "woerter": [
+   {
+    "w": "Danke,",
+    "start": 73.62,
+    "ende": 73.94,
+    "p": 0.998
+   },
+   {
+    "w": "Jana.",
+    "start": 74.3,
+    "ende": 74.62,
+    "p": 0.997
+   },
+   {
+    "w": "Thomas,",
+    "start": 74.88,
+    "ende": 75.42,
+    "p": 0.999
+   },
+   {
+    "w": "informierst",
+    "start": 75.68,
+    "ende": 76.44,
+    "p": 1.0
+   },
+   {
+    "w": "du",
+    "start": 76.44,
+    "ende": 76.54,
+    "p": 0.981
+   },
+   {
+    "w": "bitte",
+    "start": 76.54,
+    "ende": 76.74,
+    "p": 1.0
+   },
+   {
+    "w": "das",
+    "start": 76.74,
+    "ende": 76.98,
+    "p": 1.0
+   },
+   {
+    "w": "Schulamt",
+    "start": 76.98,
+    "ende": 77.5,
+    "p": 0.999
+   },
+   {
+    "w": "über",
+    "start": 77.5,
+    "ende": 77.76,
+    "p": 1.0
+   },
+   {
+    "w": "die",
+    "start": 77.76,
+    "ende": 77.92,
+    "p": 1.0
+   },
+   {
+    "w": "Lieferverzögerung,",
+    "start": 77.92,
+    "ende": 79.1,
+    "p": 1.0
+   },
+   {
+    "w": "am",
+    "start": 79.28,
+    "ende": 79.56,
+    "p": 1.0
+   },
+   {
+    "w": "besten",
+    "start": 79.56,
+    "ende": 79.86,
+    "p": 1.0
+   },
+   {
+    "w": "schriftlich,",
+    "start": 79.86,
+    "ende": 80.52,
+    "p": 1.0
+   },
+   {
+    "w": "damit",
+    "start": 80.76,
+    "ende": 81.04,
+    "p": 1.0
+   },
+   {
+    "w": "wir",
+    "start": 81.04,
+    "ende": 81.28,
+    "p": 1.0
+   },
+   {
+    "w": "das",
+    "start": 81.28,
+    "ende": 81.48,
+    "p": 1.0
+   },
+   {
+    "w": "dokumentiert",
+    "start": 81.48,
+    "ende": 82.28,
+    "p": 1.0
+   },
+   {
+    "w": "haben.",
+    "start": 82.28,
+    "ende": 82.6,
+    "p": 1.0
+   }
+  ]
+ },
+ {
+  "i": 9,
+  "sprecher": "TW",
+  "start": 83.2,
+  "ende": 87.05,
+  "text": "Ja, ich schicke bis Mittwoch eine E-Mail an das Schulamt.",
+  "woerter": [
+   {
+    "w": "Ja,",
+    "start": 83.2,
+    "ende": 83.38,
+    "p": 0.538
+   },
+   {
+    "w": "ich",
+    "start": 83.56,
+    "ende": 83.76,
+    "p": 0.995
+   },
+   {
+    "w": "schicke",
+    "start": 83.76,
+    "ende": 84.12,
+    "p": 1.0
+   },
+   {
+    "w": "bis",
+    "start": 84.12,
+    "ende": 84.34,
+    "p": 0.998
+   },
+   {
+    "w": "Mittwoch",
+    "start": 84.34,
+    "ende": 84.84,
+    "p": 0.998
+   },
+   {
+    "w": "eine",
+    "start": 84.84,
+    "ende": 85.1,
+    "p": 0.997
+   },
+   {
+    "w": "E",
+    "start": 85.1,
+    "ende": 85.32,
+    "p": 0.951
+   },
+   {
+    "w": "-Mail",
+    "start": 85.32,
+    "ende": 85.62,
+    "p": 0.997
+   },
+   {
+    "w": "an",
+    "start": 85.62,
+    "ende": 85.82,
+    "p": 0.999
+   },
+   {
+    "w": "das",
+    "start": 85.82,
+    "ende": 85.96,
+    "p": 1.0
+   },
+   {
+    "w": "Schulamt.",
+    "start": 85.96,
+    "ende": 86.52,
+    "p": 0.993
+   }
+  ]
+ },
+ {
+  "i": 10,
+  "sprecher": "JS",
+  "start": 87.7,
+  "ende": 101.04,
+  "text": "Kleine Korrektur noch zur Abnahme. Das Schulamt hat mir gestern geschrieben, die Abnahme wurde auf Dienstag, den 24. November verschoben. Der 19. ist also nicht mehr aktuell.",
+  "woerter": [
+   {
+    "w": "Kleine",
+    "start": 87.7,
+    "ende": 88.1,
+    "p": 0.971
+   },
+   {
+    "w": "Korrektur",
+    "start": 88.1,
+    "ende": 88.76,
+    "p": 0.995
+   },
+   {
+    "w": "noch",
+    "start": 88.76,
+    "ende": 88.94,
+    "p": 0.995
+   },
+   {
+    "w": "zur",
+    "start": 88.94,
+    "ende": 89.2,
+    "p": 0.999
+   },
+   {
+    "w": "Abnahme.",
+    "start": 89.2,
+    "ende": 89.8,
+    "p": 0.999
+   },
+   {
+    "w": "Das",
+    "start": 90.02,
+    "ende": 90.46,
+    "p": 0.997
+   },
+   {
+    "w": "Schulamt",
+    "start": 90.46,
+    "ende": 91.02,
+    "p": 0.994
+   },
+   {
+    "w": "hat",
+    "start": 91.02,
+    "ende": 91.26,
+    "p": 1.0
+   },
+   {
+    "w": "mir",
+    "start": 91.26,
+    "ende": 91.48,
+    "p": 1.0
+   },
+   {
+    "w": "gestern",
+    "start": 91.48,
+    "ende": 91.9,
+    "p": 1.0
+   },
+   {
+    "w": "geschrieben,",
+    "start": 91.9,
+    "ende": 92.42,
+    "p": 0.999
+   },
+   {
+    "w": "die",
+    "start": 92.72,
+    "ende": 92.9,
+    "p": 0.999
+   },
+   {
+    "w": "Abnahme",
+    "start": 92.9,
+    "ende": 93.44,
+    "p": 1.0
+   },
+   {
+    "w": "wurde",
+    "start": 93.44,
+    "ende": 93.72,
+    "p": 1.0
+   },
+   {
+    "w": "auf",
+    "start": 93.72,
+    "ende": 94.02,
+    "p": 0.998
+   },
+   {
+    "w": "Dienstag,",
+    "start": 94.02,
+    "ende": 94.8,
+    "p": 0.999
+   },
+   {
+    "w": "den",
+    "start": 94.9,
+    "ende": 95.08,
+    "p": 0.998
+   },
+   {
+    "w": "24.",
+    "start": 95.08,
+    "ende": 95.92,
+    "p": 0.999
+   },
+   {
+    "w": "November",
+    "start": 96.36,
+    "ende": 96.7,
+    "p": 0.999
+   },
+   {
+    "w": "verschoben.",
+    "start": 96.7,
+    "ende": 97.54,
+    "p": 0.944
+   },
+   {
+    "w": "Der",
+    "start": 97.82,
+    "ende": 98.24,
+    "p": 1.0
+   },
+   {
+    "w": "19.",
+    "start": 98.24,
+    "ende": 98.58,
+    "p": 0.992
+   },
+   {
+    "w": "ist",
+    "start": 98.92,
+    "ende": 99.16,
+    "p": 0.994
+   },
+   {
+    "w": "also",
+    "start": 99.16,
+    "ende": 99.48,
+    "p": 1.0
+   },
+   {
+    "w": "nicht",
+    "start": 99.48,
+    "ende": 99.72,
+    "p": 1.0
+   },
+   {
+    "w": "mehr",
+    "start": 99.72,
+    "ende": 100.0,
+    "p": 1.0
+   },
+   {
+    "w": "aktuell.",
+    "start": 100.0,
+    "ende": 100.5,
+    "p": 1.0
+   }
+  ]
+ },
+ {
+  "i": 11,
+  "sprecher": "TW",
+  "start": 101.52,
+  "ende": 109.28,
+  "text": "Ah, das ist gut, dann haben wir mehr Puffer. Dann nehme ich das in die E-Mail mit auf und bestätige den neuen Termin.",
+  "woerter": [
+   {
+    "w": "Ah,",
+    "start": 101.52,
+    "ende": 101.68,
+    "p": 0.89
+   },
+   {
+    "w": "das",
+    "start": 101.92,
+    "ende": 102.04,
+    "p": 1.0
+   },
+   {
+    "w": "ist",
+    "start": 102.04,
+    "ende": 102.26,
+    "p": 1.0
+   },
+   {
+    "w": "gut,",
+    "start": 102.26,
+    "ende": 102.62,
+    "p": 1.0
+   },
+   {
+    "w": "dann",
+    "start": 102.84,
+    "ende": 103.02,
+    "p": 1.0
+   },
+   {
+    "w": "haben",
+    "start": 103.02,
+    "ende": 103.32,
+    "p": 1.0
+   },
+   {
+    "w": "wir",
+    "start": 103.32,
+    "ende": 103.6,
+    "p": 1.0
+   },
+   {
+    "w": "mehr",
+    "start": 103.6,
+    "ende": 103.9,
+    "p": 1.0
+   },
+   {
+    "w": "Puffer.",
+    "start": 103.9,
+    "ende": 104.36,
+    "p": 0.988
+   },
+   {
+    "w": "Dann",
+    "start": 104.56,
+    "ende": 104.92,
+    "p": 0.999
+   },
+   {
+    "w": "nehme",
+    "start": 104.92,
+    "ende": 105.2,
+    "p": 1.0
+   },
+   {
+    "w": "ich",
+    "start": 105.2,
+    "ende": 105.44,
+    "p": 1.0
+   },
+   {
+    "w": "das",
+    "start": 105.44,
+    "ende": 105.62,
+    "p": 1.0
+   },
+   {
+    "w": "in",
+    "start": 105.62,
+    "ende": 105.8,
+    "p": 0.995
+   },
+   {
+    "w": "die",
+    "start": 105.8,
+    "ende": 105.96,
+    "p": 0.998
+   },
+   {
+    "w": "E",
+    "start": 105.96,
+    "ende": 106.1,
+    "p": 0.824
+   },
+   {
+    "w": "-Mail",
+    "start": 106.1,
+    "ende": 106.42,
+    "p": 0.996
+   },
+   {
+    "w": "mit",
+    "start": 106.42,
+    "ende": 106.6,
+    "p": 1.0
+   },
+   {
+    "w": "auf",
+    "start": 106.6,
+    "ende": 106.84,
+    "p": 1.0
+   },
+   {
+    "w": "und",
+    "start": 106.84,
+    "ende": 107.08,
+    "p": 1.0
+   },
+   {
+    "w": "bestätige",
+    "start": 107.08,
+    "ende": 107.72,
+    "p": 1.0
+   },
+   {
+    "w": "den",
+    "start": 107.72,
+    "ende": 107.92,
+    "p": 1.0
+   },
+   {
+    "w": "neuen",
+    "start": 107.92,
+    "ende": 108.2,
+    "p": 1.0
+   },
+   {
+    "w": "Termin.",
+    "start": 108.2,
+    "ende": 108.82,
+    "p": 1.0
+   }
+  ]
+ },
+ {
+  "i": 12,
+  "sprecher": "KH",
+  "start": 109.77,
+  "ende": 116.17,
+  "text": "Sehr gut. Zweites Thema, das Angebot für die Wohnanlage in Pankow. Jana, wie ist der Stand?",
+  "woerter": [
+   {
+    "w": "Sehr",
+    "start": 109.77,
+    "ende": 109.95,
+    "p": 0.992
+   },
+   {
+    "w": "gut.",
+    "start": 109.95,
+    "ende": 110.29,
+    "p": 1.0
+   },
+   {
+    "w": "Zweites",
+    "start": 110.57,
+    "ende": 111.09,
+    "p": 0.993
+   },
+   {
+    "w": "Thema,",
+    "start": 111.09,
+    "ende": 111.39,
+    "p": 1.0
+   },
+   {
+    "w": "das",
+    "start": 111.65,
+    "ende": 111.97,
+    "p": 1.0
+   },
+   {
+    "w": "Angebot",
+    "start": 111.97,
+    "ende": 112.51,
+    "p": 1.0
+   },
+   {
+    "w": "für",
+    "start": 112.51,
+    "ende": 112.65,
+    "p": 1.0
+   },
+   {
+    "w": "die",
+    "start": 112.65,
+    "ende": 112.79,
+    "p": 1.0
+   },
+   {
+    "w": "Wohnanlage",
+    "start": 112.79,
+    "ende": 113.53,
+    "p": 1.0
+   },
+   {
+    "w": "in",
+    "start": 113.53,
+    "ende": 113.73,
+    "p": 1.0
+   },
+   {
+    "w": "Pankow.",
+    "start": 113.73,
+    "ende": 114.23,
+    "p": 0.986
+   },
+   {
+    "w": "Jana,",
+    "start": 114.53,
+    "ende": 114.81,
+    "p": 0.997
+   },
+   {
+    "w": "wie",
+    "start": 115.07,
+    "ende": 115.33,
+    "p": 1.0
+   },
+   {
+    "w": "ist",
+    "start": 115.33,
+    "ende": 115.51,
+    "p": 1.0
+   },
+   {
+    "w": "der",
+    "start": 115.51,
+    "ende": 115.67,
+    "p": 1.0
+   },
+   {
+    "w": "Stand?",
+    "start": 115.67,
+    "ende": 115.93,
+    "p": 0.999
+   }
+  ]
+ },
+ {
+  "i": 13,
+  "sprecher": "JS",
+  "start": 116.81,
+  "ende": 126.29,
+  "text": "Das Angebot liegt bei 48.500 Euro netto für die Sanierung der Heizzentrale. Der Kunde hat nach einem Rabatt gefragt.",
+  "woerter": [
+   {
+    "w": "Das",
+    "start": 116.81,
+    "ende": 116.99,
+    "p": 0.979
+   },
+   {
+    "w": "Angebot",
+    "start": 116.99,
+    "ende": 117.57,
+    "p": 1.0
+   },
+   {
+    "w": "liegt",
+    "start": 117.57,
+    "ende": 117.87,
+    "p": 1.0
+   },
+   {
+    "w": "bei",
+    "start": 117.87,
+    "ende": 118.11,
+    "p": 0.999
+   },
+   {
+    "w": "48",
+    "start": 118.11,
+    "ende": 118.89,
+    "p": 0.997
+   },
+   {
+    "w": ".500",
+    "start": 118.89,
+    "ende": 120.03,
+    "p": 0.993
+   },
+   {
+    "w": "Euro",
+    "start": 120.03,
+    "ende": 120.59,
+    "p": 0.993
+   },
+   {
+    "w": "netto",
+    "start": 120.59,
+    "ende": 120.99,
+    "p": 0.967
+   },
+   {
+    "w": "für",
+    "start": 120.99,
+    "ende": 121.17,
+    "p": 0.999
+   },
+   {
+    "w": "die",
+    "start": 121.17,
+    "ende": 121.37,
+    "p": 1.0
+   },
+   {
+    "w": "Sanierung",
+    "start": 121.37,
+    "ende": 121.83,
+    "p": 1.0
+   },
+   {
+    "w": "der",
+    "start": 121.83,
+    "ende": 122.11,
+    "p": 1.0
+   },
+   {
+    "w": "Heizzentrale.",
+    "start": 122.11,
+    "ende": 122.97,
+    "p": 0.836
+   },
+   {
+    "w": "Der",
+    "start": 123.29,
+    "ende": 123.65,
+    "p": 0.998
+   },
+   {
+    "w": "Kunde",
+    "start": 123.65,
+    "ende": 123.99,
+    "p": 0.996
+   },
+   {
+    "w": "hat",
+    "start": 123.99,
+    "ende": 124.23,
+    "p": 1.0
+   },
+   {
+    "w": "nach",
+    "start": 124.23,
+    "ende": 124.49,
+    "p": 1.0
+   },
+   {
+    "w": "einem",
+    "start": 124.49,
+    "ende": 124.83,
+    "p": 1.0
+   },
+   {
+    "w": "Rabatt",
+    "start": 124.83,
+    "ende": 125.19,
+    "p": 0.945
+   },
+   {
+    "w": "gefragt.",
+    "start": 125.19,
+    "ende": 125.65,
+    "p": 1.0
+   }
+  ]
+ },
+ {
+  "i": 14,
+  "sprecher": "KH",
+  "start": 127.11,
+  "ende": 128.78,
+  "text": "Wie viel Spielraum haben wir?",
+  "woerter": [
+   {
+    "w": "Wie",
+    "start": 127.11,
+    "ende": 127.27,
+    "p": 0.949
+   },
+   {
+    "w": "viel",
+    "start": 127.27,
+    "ende": 127.53,
+    "p": 1.0
+   },
+   {
+    "w": "Spielraum",
+    "start": 127.53,
+    "ende": 128.07,
+    "p": 1.0
+   },
+   {
+    "w": "haben",
+    "start": 128.07,
+    "ende": 128.39,
+    "p": 1.0
+   },
+   {
+    "w": "wir?",
+    "start": 128.39,
+    "ende": 128.65,
+    "p": 1.0
+   }
+  ]
+ },
+ {
+  "i": 15,
+  "sprecher": "JS",
+  "start": 129.29,
+  "ende": 135.64,
+  "text": "Bei den aktuellen Materialpreisen maximal 3%, sonst wird es für uns zu eng.",
+  "woerter": [
+   {
+    "w": "Bei",
+    "start": 129.29,
+    "ende": 129.45,
+    "p": 0.559
+   },
+   {
+    "w": "den",
+    "start": 129.45,
+    "ende": 129.67,
+    "p": 0.993
+   },
+   {
+    "w": "aktuellen",
+    "start": 129.67,
+    "ende": 130.39,
+    "p": 0.996
+   },
+   {
+    "w": "Materialpreisen",
+    "start": 130.39,
+    "ende": 131.39,
+    "p": 0.917
+   },
+   {
+    "w": "maximal",
+    "start": 131.39,
+    "ende": 131.95,
+    "p": 0.974
+   },
+   {
+    "w": "3%,",
+    "start": 131.95,
+    "ende": 133.03,
+    "p": 0.697
+   },
+   {
+    "w": "sonst",
+    "start": 133.03,
+    "ende": 133.71,
+    "p": 0.996
+   },
+   {
+    "w": "wird",
+    "start": 133.71,
+    "ende": 134.01,
+    "p": 0.991
+   },
+   {
+    "w": "es",
+    "start": 134.01,
+    "ende": 134.23,
+    "p": 0.996
+   },
+   {
+    "w": "für",
+    "start": 134.23,
+    "ende": 134.39,
+    "p": 0.998
+   },
+   {
+    "w": "uns",
+    "start": 134.39,
+    "ende": 134.65,
+    "p": 0.999
+   },
+   {
+    "w": "zu",
+    "start": 134.65,
+    "ende": 134.91,
+    "p": 0.999
+   },
+   {
+    "w": "eng.",
+    "start": 134.91,
+    "ende": 135.15,
+    "p": 0.998
+   }
+  ]
+ },
+ {
+  "i": 16,
+  "sprecher": "TW",
+  "start": 136.19,
+  "ende": 144.99,
+  "text": "Ich würde eher keinen Rabatt geben, sondern die Wartung im ersten Jahr kostenlos anbieten. Das kostet uns weniger und bindet den Kunden.",
+  "woerter": [
+   {
+    "w": "Ich",
+    "start": 136.19,
+    "ende": 136.33,
+    "p": 0.973
+   },
+   {
+    "w": "würde",
+    "start": 136.33,
+    "ende": 136.59,
+    "p": 0.491
+   },
+   {
+    "w": "eher",
+    "start": 136.59,
+    "ende": 136.89,
+    "p": 0.938
+   },
+   {
+    "w": "keinen",
+    "start": 136.89,
+    "ende": 137.25,
+    "p": 0.999
+   },
+   {
+    "w": "Rabatt",
+    "start": 137.25,
+    "ende": 137.67,
+    "p": 0.987
+   },
+   {
+    "w": "geben,",
+    "start": 137.67,
+    "ende": 138.09,
+    "p": 1.0
+   },
+   {
+    "w": "sondern",
+    "start": 138.31,
+    "ende": 138.65,
+    "p": 1.0
+   },
+   {
+    "w": "die",
+    "start": 138.65,
+    "ende": 138.87,
+    "p": 1.0
+   },
+   {
+    "w": "Wartung",
+    "start": 138.87,
+    "ende": 139.31,
+    "p": 0.999
+   },
+   {
+    "w": "im",
+    "start": 139.31,
+    "ende": 139.49,
+    "p": 1.0
+   },
+   {
+    "w": "ersten",
+    "start": 139.49,
+    "ende": 139.83,
+    "p": 0.995
+   },
+   {
+    "w": "Jahr",
+    "start": 139.83,
+    "ende": 140.17,
+    "p": 1.0
+   },
+   {
+    "w": "kostenlos",
+    "start": 140.17,
+    "ende": 140.93,
+    "p": 1.0
+   },
+   {
+    "w": "anbieten.",
+    "start": 140.93,
+    "ende": 141.49,
+    "p": 1.0
+   },
+   {
+    "w": "Das",
+    "start": 141.79,
+    "ende": 142.19,
+    "p": 1.0
+   },
+   {
+    "w": "kostet",
+    "start": 142.19,
+    "ende": 142.65,
+    "p": 1.0
+   },
+   {
+    "w": "uns",
+    "start": 142.65,
+    "ende": 142.85,
+    "p": 1.0
+   },
+   {
+    "w": "weniger",
+    "start": 142.85,
+    "ende": 143.25,
+    "p": 1.0
+   },
+   {
+    "w": "und",
+    "start": 143.25,
+    "ende": 143.53,
+    "p": 1.0
+   },
+   {
+    "w": "bindet",
+    "start": 143.53,
+    "ende": 143.89,
+    "p": 0.984
+   },
+   {
+    "w": "den",
+    "start": 143.89,
+    "ende": 144.07,
+    "p": 1.0
+   },
+   {
+    "w": "Kunden.",
+    "start": 144.07,
+    "ende": 144.39,
+    "p": 1.0
+   }
+  ]
+ },
+ {
+  "i": 17,
+  "sprecher": "KH",
+  "start": 145.72,
+  "ende": 155.77,
+  "text": "Das gefällt mir. Wir bieten keinen Preisnachlass an, sondern ein Jahr Wartung kostenlos. Jana, schickst du das überarbeitete Angebot bis Freitag raus?",
+  "woerter": [
+   {
+    "w": "Das",
+    "start": 145.72,
+    "ende": 145.92,
+    "p": 0.993
+   },
+   {
+    "w": "gefällt",
+    "start": 145.92,
+    "ende": 146.38,
+    "p": 1.0
+   },
+   {
+    "w": "mir.",
+    "start": 146.38,
+    "ende": 146.62,
+    "p": 1.0
+   },
+   {
+    "w": "Wir",
+    "start": 146.86,
+    "ende": 147.1,
+    "p": 1.0
+   },
+   {
+    "w": "bieten",
+    "start": 147.1,
+    "ende": 147.44,
+    "p": 1.0
+   },
+   {
+    "w": "keinen",
+    "start": 147.44,
+    "ende": 147.82,
+    "p": 1.0
+   },
+   {
+    "w": "Preisnachlass",
+    "start": 147.82,
+    "ende": 148.76,
+    "p": 0.995
+   },
+   {
+    "w": "an,",
+    "start": 148.76,
+    "ende": 149.0,
+    "p": 1.0
+   },
+   {
+    "w": "sondern",
+    "start": 149.24,
+    "ende": 149.56,
+    "p": 1.0
+   },
+   {
+    "w": "ein",
+    "start": 149.56,
+    "ende": 149.9,
+    "p": 0.994
+   },
+   {
+    "w": "Jahr",
+    "start": 149.9,
+    "ende": 150.12,
+    "p": 0.992
+   },
+   {
+    "w": "Wartung",
+    "start": 150.12,
+    "ende": 150.58,
+    "p": 0.927
+   },
+   {
+    "w": "kostenlos.",
+    "start": 150.58,
+    "ende": 151.36,
+    "p": 1.0
+   },
+   {
+    "w": "Jana,",
+    "start": 151.66,
+    "ende": 152.0,
+    "p": 0.992
+   },
+   {
+    "w": "schickst",
+    "start": 152.26,
+    "ende": 152.72,
+    "p": 1.0
+   },
+   {
+    "w": "du",
+    "start": 152.72,
+    "ende": 152.8,
+    "p": 0.996
+   },
+   {
+    "w": "das",
+    "start": 152.8,
+    "ende": 153.02,
+    "p": 1.0
+   },
+   {
+    "w": "überarbeitete",
+    "start": 153.02,
+    "ende": 153.96,
+    "p": 1.0
+   },
+   {
+    "w": "Angebot",
+    "start": 153.96,
+    "ende": 154.48,
+    "p": 1.0
+   },
+   {
+    "w": "bis",
+    "start": 154.48,
+    "ende": 154.72,
+    "p": 1.0
+   },
+   {
+    "w": "Freitag",
+    "start": 154.72,
+    "ende": 155.3,
+    "p": 1.0
+   },
+   {
+    "w": "raus?",
+    "start": 155.3,
+    "ende": 155.58,
+    "p": 1.0
+   }
+  ]
+ },
+ {
+  "i": 18,
+  "sprecher": "JS",
+  "start": 156.65,
+  "ende": 159.72,
+  "text": "Ja, bis Freitag, den 6. November.",
+  "woerter": [
+   {
+    "w": "Ja,",
+    "start": 156.65,
+    "ende": 156.85,
+    "p": 0.987
+   },
+   {
+    "w": "bis",
+    "start": 157.09,
+    "ende": 157.29,
+    "p": 1.0
+   },
+   {
+    "w": "Freitag,",
+    "start": 157.29,
+    "ende": 157.95,
+    "p": 0.999
+   },
+   {
+    "w": "den",
+    "start": 158.07,
+    "ende": 158.21,
+    "p": 0.991
+   },
+   {
+    "w": "6.",
+    "start": 158.21,
+    "ende": 158.51,
+    "p": 0.998
+   },
+   {
+    "w": "November.",
+    "start": 158.67,
+    "ende": 158.99,
+    "p": 0.999
+   }
+  ]
+ },
+ {
+  "i": 19,
+  "sprecher": "KH",
+  "start": 160.43,
+  "ende": 170.28,
+  "text": "Letztes Thema, Urlaub im Dezember. Ich möchte nicht, dass zwischen Weihnachten und Neujahr alle Montere gleichzeitig weg sind. Wir brauchen einen Notdienst.",
+  "woerter": [
+   {
+    "w": "Letztes",
+    "start": 160.43,
+    "ende": 160.99,
+    "p": 0.997
+   },
+   {
+    "w": "Thema,",
+    "start": 160.99,
+    "ende": 161.23,
+    "p": 1.0
+   },
+   {
+    "w": "Urlaub",
+    "start": 161.53,
+    "ende": 161.99,
+    "p": 1.0
+   },
+   {
+    "w": "im",
+    "start": 161.99,
+    "ende": 162.19,
+    "p": 1.0
+   },
+   {
+    "w": "Dezember.",
+    "start": 162.19,
+    "ende": 162.77,
+    "p": 1.0
+   },
+   {
+    "w": "Ich",
+    "start": 162.97,
+    "ende": 163.23,
+    "p": 0.999
+   },
+   {
+    "w": "möchte",
+    "start": 163.23,
+    "ende": 163.59,
+    "p": 1.0
+   },
+   {
+    "w": "nicht,",
+    "start": 163.59,
+    "ende": 163.89,
+    "p": 1.0
+   },
+   {
+    "w": "dass",
+    "start": 164.09,
+    "ende": 164.37,
+    "p": 1.0
+   },
+   {
+    "w": "zwischen",
+    "start": 164.37,
+    "ende": 164.77,
+    "p": 1.0
+   },
+   {
+    "w": "Weihnachten",
+    "start": 164.77,
+    "ende": 165.35,
+    "p": 1.0
+   },
+   {
+    "w": "und",
+    "start": 165.35,
+    "ende": 165.59,
+    "p": 1.0
+   },
+   {
+    "w": "Neujahr",
+    "start": 165.59,
+    "ende": 166.11,
+    "p": 0.998
+   },
+   {
+    "w": "alle",
+    "start": 166.11,
+    "ende": 166.37,
+    "p": 0.996
+   },
+   {
+    "w": "Montere",
+    "start": 166.37,
+    "ende": 166.85,
+    "p": 0.799
+   },
+   {
+    "w": "gleichzeitig",
+    "start": 166.85,
+    "ende": 167.61,
+    "p": 0.999
+   },
+   {
+    "w": "weg",
+    "start": 167.61,
+    "ende": 167.97,
+    "p": 1.0
+   },
+   {
+    "w": "sind.",
+    "start": 167.97,
+    "ende": 168.23,
+    "p": 1.0
+   },
+   {
+    "w": "Wir",
+    "start": 168.49,
+    "ende": 168.73,
+    "p": 0.999
+   },
+   {
+    "w": "brauchen",
+    "start": 168.73,
+    "ende": 169.17,
+    "p": 1.0
+   },
+   {
+    "w": "einen",
+    "start": 169.17,
+    "ende": 169.51,
+    "p": 1.0
+   },
+   {
+    "w": "Notdienst.",
+    "start": 169.51,
+    "ende": 170.09,
+    "p": 0.999
+   }
+  ]
+ },
+ {
+  "i": 20,
+  "sprecher": "LB",
+  "start": 170.91,
+  "ende": 177.96,
+  "text": "Ich kann den Notdienst in der Woche zwischen den Jahren übernehmen, wenn ich dafür im Januar eine Woche frei bekomme.",
+  "woerter": [
+   {
+    "w": "Ich",
+    "start": 170.91,
+    "ende": 171.03,
+    "p": 0.926
+   },
+   {
+    "w": "kann",
+    "start": 171.03,
+    "ende": 171.27,
+    "p": 1.0
+   },
+   {
+    "w": "den",
+    "start": 171.27,
+    "ende": 171.47,
+    "p": 0.999
+   },
+   {
+    "w": "Notdienst",
+    "start": 171.47,
+    "ende": 172.03,
+    "p": 0.983
+   },
+   {
+    "w": "in",
+    "start": 172.03,
+    "ende": 172.19,
+    "p": 1.0
+   },
+   {
+    "w": "der",
+    "start": 172.19,
+    "ende": 172.37,
+    "p": 1.0
+   },
+   {
+    "w": "Woche",
+    "start": 172.37,
+    "ende": 172.65,
+    "p": 1.0
+   },
+   {
+    "w": "zwischen",
+    "start": 172.65,
+    "ende": 173.05,
+    "p": 1.0
+   },
+   {
+    "w": "den",
+    "start": 173.05,
+    "ende": 173.39,
+    "p": 1.0
+   },
+   {
+    "w": "Jahren",
+    "start": 173.39,
+    "ende": 173.71,
+    "p": 0.971
+   },
+   {
+    "w": "übernehmen,",
+    "start": 173.71,
+    "ende": 174.37,
+    "p": 1.0
+   },
+   {
+    "w": "wenn",
+    "start": 174.63,
+    "ende": 174.81,
+    "p": 1.0
+   },
+   {
+    "w": "ich",
+    "start": 174.81,
+    "ende": 174.99,
+    "p": 1.0
+   },
+   {
+    "w": "dafür",
+    "start": 174.99,
+    "ende": 175.33,
+    "p": 1.0
+   },
+   {
+    "w": "im",
+    "start": 175.33,
+    "ende": 175.67,
+    "p": 0.999
+   },
+   {
+    "w": "Januar",
+    "start": 175.67,
+    "ende": 176.05,
+    "p": 1.0
+   },
+   {
+    "w": "eine",
+    "start": 176.05,
+    "ende": 176.35,
+    "p": 0.999
+   },
+   {
+    "w": "Woche",
+    "start": 176.35,
+    "ende": 176.63,
+    "p": 1.0
+   },
+   {
+    "w": "frei",
+    "start": 176.63,
+    "ende": 176.97,
+    "p": 0.999
+   },
+   {
+    "w": "bekomme.",
+    "start": 176.97,
+    "ende": 177.43,
+    "p": 0.999
+   }
+  ]
+ },
+ {
+  "i": 21,
+  "sprecher": "KH",
+  "start": 178.85,
+  "ende": 194.03,
+  "text": "Einverstanden. Lukas macht den Notdienst vom 28. bis 31. Dezember. Wer sonst noch Urlaub einreichen will, bitte bis zum 15. November im Urlaubsplaner eintragen. Thomas, erinnerst du das Team daran?",
+  "woerter": [
+   {
+    "w": "Einverstanden.",
+    "start": 178.85,
+    "ende": 179.59,
+    "p": 0.991
+   },
+   {
+    "w": "Lukas",
+    "start": 179.89,
+    "ende": 180.43,
+    "p": 0.992
+   },
+   {
+    "w": "macht",
+    "start": 180.43,
+    "ende": 180.69,
+    "p": 1.0
+   },
+   {
+    "w": "den",
+    "start": 180.69,
+    "ende": 180.85,
+    "p": 1.0
+   },
+   {
+    "w": "Notdienst",
+    "start": 180.85,
+    "ende": 181.41,
+    "p": 1.0
+   },
+   {
+    "w": "vom",
+    "start": 181.41,
+    "ende": 181.65,
+    "p": 1.0
+   },
+   {
+    "w": "28.",
+    "start": 181.65,
+    "ende": 182.41,
+    "p": 1.0
+   },
+   {
+    "w": "bis",
+    "start": 182.79,
+    "ende": 182.99,
+    "p": 1.0
+   },
+   {
+    "w": "31.",
+    "start": 182.99,
+    "ende": 183.69,
+    "p": 1.0
+   },
+   {
+    "w": "Dezember.",
+    "start": 184.17,
+    "ende": 184.77,
+    "p": 1.0
+   },
+   {
+    "w": "Wer",
+    "start": 184.99,
+    "ende": 185.23,
+    "p": 1.0
+   },
+   {
+    "w": "sonst",
+    "start": 185.23,
+    "ende": 185.57,
+    "p": 1.0
+   },
+   {
+    "w": "noch",
+    "start": 185.57,
+    "ende": 185.83,
+    "p": 1.0
+   },
+   {
+    "w": "Urlaub",
+    "start": 185.83,
+    "ende": 186.33,
+    "p": 1.0
+   },
+   {
+    "w": "einreichen",
+    "start": 186.33,
+    "ende": 186.93,
+    "p": 1.0
+   },
+   {
+    "w": "will,",
+    "start": 186.93,
+    "ende": 187.25,
+    "p": 1.0
+   },
+   {
+    "w": "bitte",
+    "start": 187.49,
+    "ende": 187.75,
+    "p": 1.0
+   },
+   {
+    "w": "bis",
+    "start": 187.75,
+    "ende": 187.95,
+    "p": 1.0
+   },
+   {
+    "w": "zum",
+    "start": 187.95,
+    "ende": 188.21,
+    "p": 1.0
+   },
+   {
+    "w": "15.",
+    "start": 188.21,
+    "ende": 188.73,
+    "p": 1.0
+   },
+   {
+    "w": "November",
+    "start": 189.01,
+    "ende": 189.39,
+    "p": 0.999
+   },
+   {
+    "w": "im",
+    "start": 189.39,
+    "ende": 189.75,
+    "p": 1.0
+   },
+   {
+    "w": "Urlaubsplaner",
+    "start": 189.75,
+    "ende": 190.77,
+    "p": 0.999
+   },
+   {
+    "w": "eintragen.",
+    "start": 190.77,
+    "ende": 191.39,
+    "p": 0.999
+   },
+   {
+    "w": "Thomas,",
+    "start": 191.73,
+    "ende": 192.17,
+    "p": 0.999
+   },
+   {
+    "w": "erinnerst",
+    "start": 192.41,
+    "ende": 192.97,
+    "p": 1.0
+   },
+   {
+    "w": "du",
+    "start": 192.97,
+    "ende": 193.05,
+    "p": 0.991
+   },
+   {
+    "w": "das",
+    "start": 193.05,
+    "ende": 193.25,
+    "p": 1.0
+   },
+   {
+    "w": "Team",
+    "start": 193.25,
+    "ende": 193.47,
+    "p": 0.999
+   },
+   {
+    "w": "daran?",
+    "start": 193.47,
+    "ende": 193.81,
+    "p": 1.0
+   }
+  ]
+ },
+ {
+  "i": 22,
+  "sprecher": "TW",
+  "start": 194.5,
+  "ende": 197.68,
+  "text": "Ja, ich schreibe es heute in den Teamkanal.",
+  "woerter": [
+   {
+    "w": "Ja,",
+    "start": 194.5,
+    "ende": 194.66,
+    "p": 0.437
+   },
+   {
+    "w": "ich",
+    "start": 194.86,
+    "ende": 195.08,
+    "p": 0.992
+   },
+   {
+    "w": "schreibe",
+    "start": 195.08,
+    "ende": 195.5,
+    "p": 0.999
+   },
+   {
+    "w": "es",
+    "start": 195.5,
+    "ende": 195.7,
+    "p": 1.0
+   },
+   {
+    "w": "heute",
+    "start": 195.7,
+    "ende": 196.0,
+    "p": 0.999
+   },
+   {
+    "w": "in",
+    "start": 196.0,
+    "ende": 196.22,
+    "p": 0.998
+   },
+   {
+    "w": "den",
+    "start": 196.22,
+    "ende": 196.4,
+    "p": 0.982
+   },
+   {
+    "w": "Teamkanal.",
+    "start": 196.4,
+    "ende": 197.24,
+    "p": 0.896
+   }
+  ]
+ },
+ {
+  "i": 23,
+  "sprecher": "KH",
+  "start": 198.52,
+  "ende": 206.16,
+  "text": "Eine Frage ist noch offen, brauchen wir für die Schule eine zusätzliche Prüfung durch den Schornsteinfeger, oder reicht die Abnahme?",
+  "woerter": [
+   {
+    "w": "Eine",
+    "start": 198.52,
+    "ende": 198.74,
+    "p": 0.995
+   },
+   {
+    "w": "Frage",
+    "start": 198.74,
+    "ende": 199.14,
+    "p": 1.0
+   },
+   {
+    "w": "ist",
+    "start": 199.14,
+    "ende": 199.4,
+    "p": 1.0
+   },
+   {
+    "w": "noch",
+    "start": 199.4,
+    "ende": 199.64,
+    "p": 1.0
+   },
+   {
+    "w": "offen,",
+    "start": 199.64,
+    "ende": 199.98,
+    "p": 1.0
+   },
+   {
+    "w": "brauchen",
+    "start": 200.24,
+    "ende": 200.62,
+    "p": 1.0
+   },
+   {
+    "w": "wir",
+    "start": 200.62,
+    "ende": 200.86,
+    "p": 1.0
+   },
+   {
+    "w": "für",
+    "start": 200.86,
+    "ende": 201.04,
+    "p": 1.0
+   },
+   {
+    "w": "die",
+    "start": 201.04,
+    "ende": 201.16,
+    "p": 1.0
+   },
+   {
+    "w": "Schule",
+    "start": 201.16,
+    "ende": 201.44,
+    "p": 1.0
+   },
+   {
+    "w": "eine",
+    "start": 201.44,
+    "ende": 201.74,
+    "p": 1.0
+   },
+   {
+    "w": "zusätzliche",
+    "start": 201.74,
+    "ende": 202.56,
+    "p": 1.0
+   },
+   {
+    "w": "Prüfung",
+    "start": 202.56,
+    "ende": 203.06,
+    "p": 1.0
+   },
+   {
+    "w": "durch",
+    "start": 203.06,
+    "ende": 203.28,
+    "p": 1.0
+   },
+   {
+    "w": "den",
+    "start": 203.28,
+    "ende": 203.52,
+    "p": 1.0
+   },
+   {
+    "w": "Schornsteinfeger,",
+    "start": 203.52,
+    "ende": 204.54,
+    "p": 0.95
+   },
+   {
+    "w": "oder",
+    "start": 204.74,
+    "ende": 205.04,
+    "p": 1.0
+   },
+   {
+    "w": "reicht",
+    "start": 205.04,
+    "ende": 205.34,
+    "p": 1.0
+   },
+   {
+    "w": "die",
+    "start": 205.34,
+    "ende": 205.52,
+    "p": 1.0
+   },
+   {
+    "w": "Abnahme?",
+    "start": 205.52,
+    "ende": 206.0,
+    "p": 1.0
+   }
+  ]
+ },
+ {
+  "i": 24,
+  "sprecher": "TW",
+  "start": 206.74,
+  "ende": 211.14,
+  "text": "Das weiß ich ehrlich gesagt nicht genau. Das muss ich klären.",
+  "woerter": [
+   {
+    "w": "Das",
+    "start": 206.74,
+    "ende": 206.9,
+    "p": 0.958
+   },
+   {
+    "w": "weiß",
+    "start": 206.9,
+    "ende": 207.18,
+    "p": 0.999
+   },
+   {
+    "w": "ich",
+    "start": 207.18,
+    "ende": 207.4,
+    "p": 1.0
+   },
+   {
+    "w": "ehrlich",
+    "start": 207.4,
+    "ende": 207.72,
+    "p": 1.0
+   },
+   {
+    "w": "gesagt",
+    "start": 207.72,
+    "ende": 208.26,
+    "p": 1.0
+   },
+   {
+    "w": "nicht",
+    "start": 208.26,
+    "ende": 208.6,
+    "p": 1.0
+   },
+   {
+    "w": "genau.",
+    "start": 208.6,
+    "ende": 209.0,
+    "p": 1.0
+   },
+   {
+    "w": "Das",
+    "start": 209.3,
+    "ende": 209.68,
+    "p": 1.0
+   },
+   {
+    "w": "muss",
+    "start": 209.68,
+    "ende": 209.92,
+    "p": 0.998
+   },
+   {
+    "w": "ich",
+    "start": 209.92,
+    "ende": 210.14,
+    "p": 1.0
+   },
+   {
+    "w": "klären.",
+    "start": 210.14,
+    "ende": 210.6,
+    "p": 0.995
+   }
+  ]
+ },
+ {
+  "i": 25,
+  "sprecher": "KH",
+  "start": 211.65,
+  "ende": 217.0,
+  "text": "Dann klären wir das bis zur nächsten Besprechung. Danke euch, dann bis nächsten Montag.",
+  "woerter": [
+   {
+    "w": "Dann",
+    "start": 211.65,
+    "ende": 211.83,
+    "p": 0.889
+   },
+   {
+    "w": "klären",
+    "start": 211.83,
+    "ende": 212.29,
+    "p": 1.0
+   },
+   {
+    "w": "wir",
+    "start": 212.29,
+    "ende": 212.47,
+    "p": 1.0
+   },
+   {
+    "w": "das",
+    "start": 212.47,
+    "ende": 212.69,
+    "p": 1.0
+   },
+   {
+    "w": "bis",
+    "start": 212.69,
+    "ende": 212.89,
+    "p": 0.997
+   },
+   {
+    "w": "zur",
+    "start": 212.89,
+    "ende": 213.15,
+    "p": 1.0
+   },
+   {
+    "w": "nächsten",
+    "start": 213.15,
+    "ende": 213.53,
+    "p": 1.0
+   },
+   {
+    "w": "Besprechung.",
+    "start": 213.53,
+    "ende": 214.33,
+    "p": 1.0
+   },
+   {
+    "w": "Danke",
+    "start": 214.51,
+    "ende": 214.91,
+    "p": 0.999
+   },
+   {
+    "w": "euch,",
+    "start": 214.91,
+    "ende": 215.19,
+    "p": 0.973
+   },
+   {
+    "w": "dann",
+    "start": 215.43,
+    "ende": 215.61,
+    "p": 1.0
+   },
+   {
+    "w": "bis",
+    "start": 215.61,
+    "ende": 215.83,
+    "p": 1.0
+   },
+   {
+    "w": "nächsten",
+    "start": 215.83,
+    "ende": 216.29,
+    "p": 1.0
+   },
+   {
+    "w": "Montag.",
+    "start": 216.29,
+    "ende": 216.91,
+    "p": 1.0
+   }
+  ]
+ }
+]

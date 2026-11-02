@@ -1,0 +1,11 @@
+huggingface_hub==2.4.0
+mlx==0.32.4
+mlx-metal==0.32.4
+mlx-whisper==0.4.3
+more-itertools==11.2.1
+numba==0.68.1
+numpy==2.5.4
+scipy==1.18.1
+tiktoken==0.14.0
+torch==2.15.0
+tqdm==4.70.1

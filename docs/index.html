@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KI-Protokoll mit Belegen · Demo</title>
+<meta name="description" content="Demo: Aus einer Besprechungsaufnahme wird ein Protokoll, in dem jeder Punkt per Klick auf die Stelle in der Aufnahme verweist. Lokal transkribiert, von einem Menschen geprüft.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F5F6F8; --sheet:#FFFFFF; --ink:#1D2125; --muted:#5B636D; --rule:#D5DAE1;
+  --carbon:#2F3E9E; --carbon-soft:#E6E9F7; --marker:#F3DC4A; --check:#B8402A; --check-soft:#F8E7E3;
+  --s-KH:#2F3E9E; --s-TW:#2E7D6B; --s-JS:#9A5B13; --s-LB:#6B4FA0;
+  --display:"Archivo",system-ui,sans-serif; --serif:"Source Serif 4",Georgia,serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#14171C; --sheet:#1C2027; --ink:#E7E9EE; --muted:#9AA3AE; --rule:#323843;
+  --carbon:#9DAAF2; --carbon-soft:#252B45; --marker:#8A7614; --check:#F08A72; --check-soft:#3A2520;
+  --s-KH:#9DAAF2; --s-TW:#6FC7AF; --s-JS:#E0A35A; --s-LB:#B9A2EA; color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --paper:#14171C; --sheet:#1C2027; --ink:#E7E9EE; --muted:#9AA3AE; --rule:#323843;
+  --carbon:#9DAAF2; --carbon-soft:#252B45; --marker:#8A7614; --check:#F08A72; --check-soft:#3A2520;
+  --s-KH:#9DAAF2; --s-TW:#6FC7AF; --s-JS:#E0A35A; --s-LB:#B9A2EA; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.55 var(--display);font-variation-settings:"wdth" 100}
+a{color:var(--carbon)}
+:focus-visible{outline:2px solid var(--carbon);outline-offset:2px;border-radius:3px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+
+/* Kopfzeile */
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:18px 0;border-bottom:1px solid var(--rule);font-size:14px}
+.top b{font-weight:700;font-variation-settings:"wdth" 112}
+.top span{color:var(--muted)}
+
+/* Einstieg */
+.hero{padding:56px 0 28px}
+.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--carbon);margin:0 0 18px}
+h1{font-family:var(--display);font-weight:800;font-variation-settings:"wdth" 118;font-size:clamp(32px,5.4vw,62px);line-height:1.02;letter-spacing:-.015em;margin:0;max-width:16ch}
+h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--marker) 62%,var(--marker) 92%,transparent 92%)}
+.lede{font-size:18px;max-width:58ch;color:var(--muted);margin:22px 0 0}
+
+/* Player + Zeitband */
+.player{margin-top:36px;background:var(--sheet);border:1px solid var(--rule);border-radius:10px;padding:16px 18px}
+.prow{display:flex;align-items:center;gap:14px}
+.play{flex:none;width:44px;height:44px;border-radius:50%;border:0;background:var(--carbon);color:var(--sheet);cursor:pointer;display:grid;place-items:center}
+.play svg{width:16px;height:16px;fill:currentColor}
+.clock{font:500 14px var(--mono);color:var(--muted);min-width:11ch}
+.band{position:relative;flex:1;height:30px;cursor:pointer}
+.band .seg{position:absolute;top:6px;bottom:6px;border-radius:2px;opacity:.85}
+.band .seg.on{top:2px;bottom:2px;opacity:1}
+.band .head{position:absolute;top:0;bottom:0;width:2px;background:var(--ink);left:0;pointer-events:none}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:12px;font-size:13px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+
+/* Hauptbereich */
+.main{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:28px;padding:28px 0 64px;align-items:start}
+.panel-h{font:500 12px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;display:flex;justify-content:space-between}
+
+/* Protokoll-Blatt */
+.sheet{background:var(--sheet);border:1px solid var(--rule);border-radius:4px;padding:34px 36px 30px;font-family:var(--serif);font-size:16.5px;line-height:1.55;box-shadow:0 1px 0 var(--rule),0 18px 40px -28px rgba(20,30,60,.35)}
+.sheet h2{font-family:var(--display);font-variation-settings:"wdth" 112;font-weight:800;font-size:24px;line-height:1.15;margin:0}
+.sheet .firm{font-family:var(--display);color:var(--muted);font-size:14px;margin:4px 0 18px}
+.kopf{display:grid;grid-template-columns:auto 1fr;gap:4px 18px;font-size:14.5px;border-top:2px solid var(--ink);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:6px}
+.kopf dt{font-family:var(--display);color:var(--muted)} .kopf dd{margin:0}
+.status{display:inline-block;font:500 12px var(--mono);color:var(--check);border:1px solid currentColor;border-radius:3px;padding:2px 7px;margin-top:10px}
+.sheet h3{font-family:var(--display);font-variation-settings:"wdth" 112;font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--rule)}
+.sheet h4{font-family:var(--display);font-weight:600;font-size:15.5px;margin:14px 0 2px}
+.sheet p{margin:0}
+.sheet ul{margin:0;padding:0;list-style:none}
+.sheet li{padding:7px 0;border-bottom:1px dotted var(--rule)}
+.sheet li:last-child{border-bottom:0}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th{font:500 11.5px var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);text-align:left;padding:4px 8px 6px 0;border-bottom:1px solid var(--rule)}
+td{padding:8px 8px 8px 0;border-bottom:1px dotted var(--rule);vertical-align:top}
+td.bis{font:500 13.5px var(--mono);white-space:nowrap}
+td.wer{font-family:var(--display);font-size:14px;white-space:nowrap}
+.note{border-left:3px solid var(--check);background:var(--check-soft);padding:10px 14px;border-radius:0 4px 4px 0}
+.note b{font-family:var(--display);font-size:13px;color:var(--check);display:block;margin-bottom:2px}
+.fix td:first-child{text-decoration:line-through;text-decoration-color:var(--check);color:var(--muted)}
+
+/* Belege */
+.beleg{display:inline-flex;gap:4px;flex-wrap:wrap;margin-left:6px;vertical-align:1px}
+.chip{font:500 12px/1 var(--mono);color:var(--carbon);background:var(--carbon-soft);border:0;border-radius:3px;padding:4px 6px;cursor:pointer}
+.chip:hover{background:var(--carbon);color:var(--sheet)}
+
+/* Transkript */
+.tpanel{position:sticky;top:16px}
+.tlist{background:var(--sheet);border:1px solid var(--rule);border-radius:4px;max-height:calc(100vh - 80px);overflow:auto;padding:6px 0}
+.line{display:grid;grid-template-columns:52px 1fr;gap:2px 10px;padding:9px 16px;font-size:14.5px;line-height:1.5;cursor:pointer;background-image:linear-gradient(var(--marker),var(--marker));background-repeat:no-repeat;background-size:0% 100%;transition:background-size .5s ease}
+.line:hover{background-color:var(--paper)}
+.line.mark{background-size:100% 100%}
+.line.now .t{color:var(--ink);font-weight:600}
+.line .t{font:500 12px/1.9 var(--mono);color:var(--muted)}
+.line .who{font-weight:700;font-size:12.5px;font-variation-settings:"wdth" 108}
+.line .txt{grid-column:2}
+.err{text-decoration:underline wavy var(--check);text-decoration-thickness:1.5px;text-underline-offset:3px}
+.low{text-decoration:underline dotted var(--muted);text-underline-offset:3px}
+.tkey{font-size:12.5px;color:var(--muted);margin:10px 2px 0;display:flex;flex-wrap:wrap;gap:4px 16px}
+
+/* Erkenntnisse */
+section.band2{border-top:1px solid var(--rule);padding:48px 0}
+section.band2 h2{font-weight:800;font-variation-settings:"wdth" 118;font-size:clamp(24px,3.2vw,34px);line-height:1.1;margin:0 0 24px;max-width:24ch}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.fact .n{font:500 13px var(--mono);color:var(--carbon);display:block;margin-bottom:6px}
+.fact p{margin:0;font-family:var(--serif);font-size:16.5px}
+.steps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(4,1fr);gap:0;counter-reset:s}
+.steps li{counter-increment:s;padding:18px 18px 4px 0;border-top:2px solid var(--ink);margin-right:18px}
+.steps li::before{content:counter(s);font:500 13px var(--mono);color:var(--carbon);display:block;margin-bottom:8px}
+.steps b{display:block;font-size:17px;margin-bottom:4px}
+.steps span{font-family:var(--serif);color:var(--muted)}
+.dsgvo{display:grid;grid-template-columns:1fr 1fr;gap:24px;font-family:var(--serif);font-size:16.5px}
+.dsgvo p{margin:0 0 12px}
+
+/* Kontakt */
+.cta{background:var(--carbon);color:var(--sheet);border-radius:10px;padding:34px 32px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;margin:8px 0 48px}
+.cta h2{margin:0 0 6px;font-weight:800;font-variation-settings:"wdth" 115;font-size:26px;line-height:1.15}
+.cta p{margin:0;opacity:.85;max-width:56ch}
+.cta a{background:var(--sheet);color:var(--carbon);text-decoration:none;font-weight:700;padding:12px 18px;border-radius:6px;white-space:nowrap}
+footer{border-top:1px solid var(--rule);padding:22px 0 40px;font-size:13px;color:var(--muted)}
+footer p{margin:0 0 6px;max-width:90ch}
+
+@media (max-width:900px){
+  .main{grid-template-columns:1fr}
+  .tpanel{position:static}
+  .tlist{max-height:60vh}
+  .facts,.dsgvo{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr 1fr}
+}
+@media (max-width:560px){
+  .hero{padding-top:36px}
+  .sheet{padding:24px 18px}
+  .steps{grid-template-columns:1fr}
+  .top span{display:none}
+  .tasks thead{display:none}
+  .tasks tr{display:grid;grid-template-columns:auto 1fr;gap:0 12px;padding:9px 0;border-bottom:1px dotted var(--rule)}
+  .tasks td{border:0;padding:0}
+  .tasks td:last-child{grid-column:1/-1;padding-top:3px}
+  .prow{flex-wrap:wrap}.band{flex-basis:100%}
+}
+@media (prefers-reduced-motion:reduce){.line{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div><b>Mingzhe Sun</b> <span>· KI-Umsetzung für den Mittelstand · Berlin</span></div>
+    <a href="https://www.linkedin.com/in/mingzhe-sun" rel="noopener">Kontakt auf LinkedIn</a>
+  </header>
+
+  <section class="hero">
+    <p class="eyebrow">Demo · Besprechungsprotokoll mit Belegen</p>
+    <h1>3:37 Minuten Besprechung. Ein Protokoll, in dem <em>jede Zeile belegt</em> ist.</h1>
+    <p class="lede">Eine Montagsbesprechung einer fiktiven Haustechnik-Firma: lokal transkribiert, von einer KI zu einem Protokoll verdichtet. Jeder Beschluss und jede Aufgabe führt per Klick an die Stelle in der Aufnahme, an der sie gesagt wurde.</p>
+
+    <div class="player" aria-label="Aufnahme der Besprechung">
+      <div class="prow">
+        <button class="play" id="play" aria-label="Aufnahme abspielen"><svg viewBox="0 0 16 16" id="icon"><path d="M3 1.5v13l11-6.5z"/></svg></button>
+        <span class="clock" id="clock">0:00 / 3:37</span>
+        <div class="band" id="band" role="slider" tabindex="0" aria-label="Position in der Aufnahme" aria-valuemin="0" aria-valuemax="217" aria-valuenow="0"></div>
+      </div>
+      <div class="legend" id="legend"></div>
+      <audio id="audio" src="meeting.m4a" preload="metadata"></audio>
+    </div>
+  </section>
+
+  <div class="main">
+    <div>
+      <p class="panel-h"><span>Protokoll</span><span>KI-Entwurf</span></p>
+      <article class="sheet" id="sheet"></article>
+    </div>
+    <aside class="tpanel">
+      <p class="panel-h"><span>Transkript</span><span>Whisper, lokal</span></p>
+      <div class="tlist" id="tlist"></div>
+      <p class="tkey"><span><span class="err">Wellenlinie</span> = Hörfehler, im Protokoll berichtigt</span><span><span class="low">Punktlinie</span> = Modell war unsicher</span></p>
+    </aside>
+  </div>
+
+  <section class="band2">
+    <h2>Was die KI in dieser Demo geleistet hat – und wo sie einen Menschen braucht</h2>
+    <div class="facts">
+      <div class="fact"><span class="n">47 Sekunden</span><p>für die Transkription der 3:37 Minuten, lokal auf einem MacBook (M1 Pro). Die Aufnahme hat das Gerät nicht verlassen.</p></div>
+      <div class="fact"><span class="n">5 Hörfehler bei 476 Wörtern</span><p>zum Beispiel „DM50“ statt „DN 50“. Die Konfidenzwerte des Modells haben keinen davon markiert. Darum gehören eine Fachbegriffliste des Betriebs und eine Prüfung durch einen Menschen fest dazu.</p></div>
+      <div class="fact"><span class="n">1 Terminkonflikt</span><p>den in der Besprechung niemand angesprochen hat: Lieferung in KW 48, Abnahme am 24.11. – das geht nur, wenn am Montag geliefert wird.</p></div>
+    </div>
+  </section>
+
+  <section class="band2">
+    <h2>So läuft es in Ihrem Betrieb</h2>
+    <ol class="steps">
+      <li><b>Aufnehmen</b><span>Mit Teams, Zoom oder einem Diktiergerät – mit Einverständnis aller Teilnehmenden.</span></li>
+      <li><b>Transkribieren</b><span>Auf einem Rechner im Haus oder auf einem Server in der EU. Mit Ihrer Fachbegriffliste.</span></li>
+      <li><b>Protokoll entwerfen</b><span>Beschlüsse, Aufgaben mit Termin, Korrekturen und offene Fragen – jeweils mit Beleg.</span></li>
+      <li><b>Prüfen und verteilen</b><span>Ein Teilnehmer prüft in wenigen Minuten. Aufgaben gehen direkt in Ihr Projekt- oder Ticketsystem.</span></li>
+    </ol>
+  </section>
+
+  <section class="band2">
+    <h2>Datenschutz</h2>
+    <div class="dsgvo">
+      <div>
+        <p>Besprechungen enthalten Personaldaten, Preise und Kundennamen. Deshalb läuft die Transkription so nah wie möglich an Ihren Daten: auf eigener Hardware oder bei einem EU-Anbieter mit Auftragsverarbeitungsvertrag.</p>
+        <p>Für den Protokollentwurf wählen wir das Sprachmodell nach Ihren Anforderungen – von einem lokal betriebenen Modell bis zu einem Anbieter mit EU-Datenverarbeitung.</p>
+      </div>
+      <div>
+        <p>Aufnahmen werden nach der Verarbeitung gelöscht, wenn Sie das wünschen. Nichts davon wird zum Training von Modellen verwendet.</p>
+        <p>Jeder Punkt im Protokoll verweist auf die Stelle im Transkript. So lässt sich jede Aussage nachprüfen, statt der KI blind zu vertrauen.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta">
+    <div>
+      <h2>Welche Besprechung kostet Sie jede Woche ein Protokoll?</h2>
+      <p>Ich bin Ingenieur (Windenergie, Projektentwicklung) und setze KI in kleinen und mittleren Betrieben um – nüchtern, nachprüfbar und datenschutzgerecht.</p>
+    </div>
+    <a href="https://www.linkedin.com/in/mingzhe-sun" rel="noopener">Auf LinkedIn schreiben</a>
+  </div>
+
+  <footer>
+    <p>Firma und Personen sind erfunden. Die Stimmen sind synthetisch (macOS-Sprachausgabe). Transkription: Whisper large-v3-turbo über mlx-whisper, lokal. Protokollentwurf: Claude (Anthropic), ausschließlich aus dem Transkript erstellt.</p>
+    <p>Quellcode und Rohdaten dieser Demo: <a href="https://github.com/hackersmz/ki-protokoll-demo">github.com/hackersmz/ki-protokoll-demo</a></p>
+  </footer>
+</div>
+
+<script src="data.js"></script>
+<script>
+(() => {
+  const D = window.DEMO, P = D.protokoll, T = D.transcript;
+  const total = T[T.length - 1].ende;
+  const $ = id => document.getElementById(id);
+  const audio = $("audio");
+  const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  const fmt = s => { s = Math.max(0, Math.floor(s)); return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0"); };
+  const sp = id => D.sprecher[id];
+
+  // Legende und Zeitband
+  $("legend").innerHTML = Object.entries(D.sprecher).map(([id, s]) =>
+    `<span><i style="background:var(--s-${id})"></i>${esc(s.name)}, ${esc(s.rolle)}</span>`).join("");
+  $("band").innerHTML = T.map(t =>
+    `<span class="seg" data-i="${t.i}" style="left:${t.start / total * 100}%;width:${(t.ende - t.start) / total * 100}%;background:var(--s-${t.sprecher})"></span>`
+  ).join("") + `<span class="head" id="head"></span>`;
+
+  // Transkript mit Markierungen
+  const errs = {};
+  P.begriffe.forEach(b => (errs[b.beleg] = errs[b.beleg] || []).push(b));
+  function markLine(t) {
+    const marks = [];
+    const add = (str, cls, title) => {
+      const at = t.text.indexOf(str);
+      if (at < 0 || marks.some(m => at < m.end && at + str.length > m.at)) return;
+      marks.push({at, end: at + str.length, cls, title});
+    };
+    (errs[t.i] || []).forEach(b => add(b.transkript, "err", `Hörfehler – im Protokoll: ${b.gelesen}`));
+    t.unsicher.forEach(w => add(w.replace(/[.,]$/, ""), "low", "Modell war unsicher"));
+    marks.sort((a, b) => a.at - b.at);
+    let html = "", pos = 0;
+    for (const m of marks) {
+      html += esc(t.text.slice(pos, m.at)) + `<span class="${m.cls}" title="${esc(m.title)}">${esc(t.text.slice(m.at, m.end))}</span>`;
+      pos = m.end;
+    }
+    return html + esc(t.text.slice(pos));
+  }
+  $("tlist").innerHTML = T.map(t => `
+    <div class="line" id="z${t.i}" data-i="${t.i}">
+      <span class="t">${fmt(t.start)}</span>
+      <span class="who" style="color:var(--s-${t.sprecher})">${esc(sp(t.sprecher).name)}</span>
+      <span class="txt">${markLine(t)}</span>
+    </div>`).join("");
+
+  // Protokoll
+  const chips = arr => `<span class="beleg">${[].concat(arr).map(i =>
+    `<button class="chip" data-i="${i}" aria-label="Zur Stelle ${fmt(T[i].start)} in der Aufnahme springen">${fmt(T[i].start)}</button>`).join("")}</span>`;
+  const k = P.kopf;
+  $("sheet").innerHTML = `
+    <h2>${esc(k.titel)}</h2>
+    <p class="firm">${esc(k.firma)}</p>
+    <dl class="kopf">
+      <dt>Datum</dt><dd>${esc(k.datum)}</dd>
+      <dt>Dauer</dt><dd>${esc(k.dauer)}</dd>
+      <dt>Teilnehmer</dt><dd>${k.teilnehmer.map(esc).join("<br>")}</dd>
+    </dl>
+    <span class="status">${esc(k.status)}</span>
+
+    <h3>Themen</h3>
+    ${P.themen.map(t => `<h4>${esc(t.titel)}</h4><p>${esc(t.text)}${chips(t.beleg)}</p>`).join("")}
+
+    <h3>Beschlüsse</h3>
+    <ul>${P.beschluesse.map(b => `<li>${esc(b.text)}${chips(b.beleg)}</li>`).join("")}</ul>
+
+    <h3>Aufgaben</h3>
+    <table class="tasks"><thead><tr><th>Bis</th><th>Wer</th><th>Was</th></tr></thead><tbody>
+    ${P.aufgaben.map(a => `<tr><td class="bis">${esc(a.bis)}</td><td class="wer">${esc(a.wer)}</td><td>${esc(a.was)}${chips(a.beleg)}</td></tr>`).join("")}
+    </tbody></table>
+
+    <h3>In der Besprechung korrigiert</h3>
+    <ul>${P.korrekturen.map(c => `<li>${esc(c.text)}${chips(c.beleg)}</li>`).join("")}</ul>
+
+    <h3>Hinweis der KI</h3>
+    ${P.hinweise.map(h => `<p class="note"><b>Bitte prüfen – nicht in der Besprechung angesprochen</b>${esc(h.text)}${chips(h.beleg)}</p>`).join("")}
+
+    <h3>Offene Fragen</h3>
+    <ul>${P.offen.map(o => `<li>${esc(o.text)}${chips(o.beleg)}</li>`).join("")}</ul>
+
+    <h3>Hörfehler im Transkript, hier berichtigt</h3>
+    <table class="fix"><thead><tr><th>Transkript</th><th>Gemeint</th></tr></thead><tbody>
+    ${P.begriffe.map(b => `<tr><td>${esc(b.transkript)}</td><td>${esc(b.gelesen)}${chips(b.beleg)}</td></tr>`).join("")}
+    </tbody></table>`;
+
+  // Abspielen und Springen
+  const icon = $("icon");
+  const setIcon = () => icon.innerHTML = audio.paused
+    ? '<path d="M3 1.5v13l11-6.5z"/>' : '<path d="M3 1.5h3.5v13H3zM9.5 1.5H13v13H9.5z"/>';
+  $("play").onclick = () => audio.paused ? audio.play() : audio.pause();
+  audio.onplay = audio.onpause = () => { setIcon(); $("play").setAttribute("aria-label", audio.paused ? "Aufnahme abspielen" : "Aufnahme anhalten"); };
+
+  let current = -1;
+  function jump(i, fromTranscript) {
+    audio.currentTime = T[i].start + 0.01;
+    audio.play();
+    const el = $("z" + i);
+    document.querySelectorAll(".line.mark").forEach(x => x.classList.remove("mark"));
+    requestAnimationFrame(() => el.classList.add("mark"));
+    if (!fromTranscript) el.scrollIntoView({block: "nearest", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
+  }
+  document.addEventListener("click", e => {
+    const c = e.target.closest(".chip"); if (c) return jump(+c.dataset.i, false);
+    const l = e.target.closest(".line"); if (l) return jump(+l.dataset.i, true);
+  });
+  const band = $("band");
+  const seekTo = x => { const r = band.getBoundingClientRect(); audio.currentTime = Math.min(1, Math.max(0, (x - r.left) / r.width)) * total; };
+  band.addEventListener("click", e => seekTo(e.clientX));
+  band.addEventListener("keydown", e => {
+    if (e.key === "ArrowRight") audio.currentTime = Math.min(total, audio.currentTime + 5);
+    if (e.key === "ArrowLeft") audio.currentTime = Math.max(0, audio.currentTime - 5);
+  });
+  audio.addEventListener("timeupdate", () => {
+    const t = audio.currentTime;
+    $("head").style.left = (t / total * 100) + "%";
+    $("clock").textContent = `${fmt(t)} / ${fmt(total)}`;
+    band.setAttribute("aria-valuenow", Math.floor(t));
+    const now = T.findIndex(x => t >= x.start && t < x.ende + 0.6);
+    if (now !== current) {
+      document.querySelectorAll(".line.now,.seg.on").forEach(x => x.classList.remove("now", "on"));
+      if (now >= 0) { $("z" + now).classList.add("now"); band.querySelector(`.seg[data-i="${now}"]`).classList.add("on"); }
+      current = now;
+    }
+  });
+})();
+</script>
+</body>
+</html>
